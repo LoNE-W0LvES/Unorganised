@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006471719532",
+    "project_id": "smarthome-d1087",
+    "storage_bucket": "smarthome-d1087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006471719532:android:6efba3a24080b1af22c649",
+        "android_client_info": {
+          "package_name": "com.lonewolves.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006471719532-nn7kpq06gcpg1rd1o4f77jb8jd6odbl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTEiU1ylsNzCqMOvL2BUE-Ii2gCsVLfT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006471719532-nn7kpq06gcpg1rd1o4f77jb8jd6odbl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

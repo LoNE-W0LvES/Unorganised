@@ -1,0 +1,3 @@
+Power saver
+AMD RyzenT Balanced
+AMD RyzenT High Performance

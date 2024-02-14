@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="413dp"
+        android:layout_height="845dp"
+        android:background="#B4121212"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/sec_1"
+            android:layout_width="match_parent"
+            android:layout_height="373dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/background"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/sec_1"
+            android:id="@+id/takePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_photo"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D7CCC8"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+
+
+        <Button
+            android:id="@+id/unlockDoor"
+            android:layout_below="@+id/takePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unlock"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="487dp" />
+
+
+        <Button
+            android:layout_below="@+id/unlockDoor"
+            android:id="@+id/light"
+            android:layout_width="99dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_lightbulb_24"
+            android:drawableTint="@color/white"
+            />
+
+
+        <Button
+            android:layout_below="@id/light"
+            android:id="@+id/fan"
+            android:layout_width="102dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginEnd="48dp"
+            android:text="off"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="586dp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

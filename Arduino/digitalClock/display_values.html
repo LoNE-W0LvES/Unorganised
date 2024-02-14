@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Picker Values</title>
+</head>
+<body>
+    <h1>Color Picker Values</h1>
+    <ul id="colorList"></ul>
+    
+    <script>
+        const colorList = document.getElementById("colorList");
+        const queryParams = new URLSearchParams(window.location.search);
+
+        queryParams.forEach((value, key) => {
+            const listItem = document.createElement("li");
+            listItem.textContent = `${key}: ${value}`;
+            colorList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>

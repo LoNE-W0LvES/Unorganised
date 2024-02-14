@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  background-color: #181818;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: orange;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: darkorange;
+}
+
+.tabcontent {
+  color: orange;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#TabWifi {background-color: #181818;}
+#rgbClock {background-color: #181818;}
+#Clock {background-color: #181818;}
+#About {background-color: #181818;}
+
+
+:root{
+--primarycolor:orange;
+}
+
+body.invert,
+body.invert a,
+body.invert h1 {
+color:orange;
+}
+body.invert .msg{
+background-color: #282828;
+border-top: 1px solid #555;
+border-right: 1px solid #555;
+border-bottom: 1px solid #555;
+color:#fff;
+}
+body.invert .q[role=img] {
+-webkit-filter: invert(1);
+filter: invert(1);
+}
+.c,
+body {
+text-align: center;
+font-family: verdana
+}
+.wrap {
+text-align:left;
+display:inline-block;
+min-width:260px;
+max-width:1980px;
+}
+div,
+input,select {
+padding: 5px;
+font-size: 1em;
+margin: 5px 0;
+box-sizing: border-box;
+}
+div{
+margin: 5px 0;
+}
+input,button,select,.msg{
+border-radius:.3rem;
+width: 100%;
+}
+input[type=radio],input[type=checkbox]{
+width: auto;
+}
+button,input[type='button'],input[type='submit'] {
+border: 0;
+background-color: var(--primarycolor);
+color: #fff;
+line-height: 2.4rem;
+font-size: 1.2rem;
+}
+input[type='file']{
+border: 1px solid var(--primarycolor);
+}
+a {
+color: white;
+font-weight: 700;
+text-decoration: none;
+}
+a:hover {
+color: var(--primarycolor);
+text-decoration: underline;
+}
+.h {
+display: none;
+}
+.q {
+height: 16px;
+margin: 0;
+padding: 0 5px;
+text-align: right;
+min-width: 38px;
+float:right;
+}
+.q.q-0:after {
+background-position-x: 0;
+}
+.q.q-1:after {
+background-position-x: -16px;
+}
+.q.q-2:after {
+background-position-x: -32px;
+}
+.q.q-3:after {
+background-position-x: -48px;
+}
+.q.q-4:after {
+background-position-x: -64px;
+
+}
+.q.l:before {
+background-position-x: -80px;
+padding-right: 5px
+}
+.ql .q {
+float: left;
+}
+
+.q:after,
+.q:before {
+content: '';width:16px;height:16px;display:inline-block;background-repeat:no-repeat;background-position: 16px 0;
+background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAQBAMAAAAblGfKAAAAJFBMVEUAAAD///////////////////////////////////////////+0CY3pAAAAC3RSTlMAM93M7pkiiHe7qkALUPMAAABlSURBVCjPY4AAQQH89O4NDFAwWDUICgAl0GiIMhhNLw1sxgKkaUhScoNIgyCMBknDaCALTMM0BDFokabBlKGYJA2Myh2TBEjRwLR7924HoDIIBEpCaQgLogxEwzUwDz4N7EANAQB0a5DFK5CIoAAAAABJRU5ErkJggg==');
+
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+.q:before,
+.q:after {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAgBAMAAABaww+gAAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAM93uu4giEcyZZqp3RBc78qIAAACoSURBVEjHY0AGgoKCFPHfvXvHgApGjR81fnAbD1QKwoT5CKPQ+aPGDw7j2UI8BWho/KJ376xoZzzXOyA4QDPj895NTH33EKEVhtH5MK3ofBDG4COMj3sNxC9pZnzfMwaGukc0M17vOQMD02PaGW8OMn6Iul7k3SMlJb13vTQy3u8dGDymtfFQbQgMFEXnI4shGwXjjxo/ajy1jN8HMf4FjYwXghhvyAAAPLhL6avoPTYAAAAASUVORK5CYII=');
+	background-size: 95px 16px;
+}
+}
+
+.msg {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-left-color: #777;
+}
+
+.msg h4 {
+margin-top: 0;
+margin-bottom: 5px;
+}
+.msg.P {
+border-left-color: var(--primarycolor);
+}
+.msg.P h4 {
+color: var(--primarycolor);
+}
+.msg.S {
+border-left-color: #5cb85c;
+}
+.msg.S h4 {
+color: #5cb85c;
+}
+.msg.D {
+border-left-color: #dc3630;
+}
+.msg.D h4 {
+color: #dc3630;
+}
+
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0;
+padding: 0 0 0.5em 0;
+}
+td {
+vertical-align: top;
+}
+button.D{
+background-color:#dc3630;
+}
+
+button{
+transition: 0s opacity;
+transition-delay: 3s;
+transition-duration: 0s;
+cursor: pointer;
+}
+
+button:active{
+opacity: 50% !important;
+cursor: wait;
+transition-delay: 0s;
+}
+
+:disabled {
+opacity: 0.5;
+}
+.container {
+  position: relative;
+  width: 0 auto;
+  margin: 0 auto;
+}
+
+.image {
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+}
+.color-picker { display: flex; position: absolute; width:2%; z-index: 1; opacity: 0;}
+.color-pickerS { display: flex; position: absolute; width:2%; z-index: 1; opacity: 0;}
+
+.fcontainer {
+  display: flex;
+  padding: 1%;
+}
+.ccontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+.button {
+  padding: 1%;
+  background-color: lawngreen;
+  font-size: 18px;
+  margin-right: 10%;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.wrapper {
+  background-color: #2A2F33;
+  width: fit-content;
+}
+.item1stmid {
+  margin-left: 7.5%;
+  flex-direction: row;
+  display: flex;
+  padding: 1px 1%;
+  background-color: #2A2F33;
+  margin-right: 12%;
+}
+.item {
+  flex-direction: row;
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+}
+.itemX {
+  flex-direction: row;
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+  width: 20%;
+  height: 26%;
+}
+.itemX > img {
+  background-color: white;
+  width: 400%;
+}
+.itemM {
+  flex-direction: row;
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+  width: 5%;
+}
+.itemdot {
+  padding-top: 100%;
+}
+.itemX > img {
+  background-color: white;
+  width: 500%;
+}
+.itemdot2 {
+  flex-direction: row;
+  display: flex;
+}
+.cscontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.con {
+  display: flex;
+}
+label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.ggLed {
+  width: 50%;
+}
+.range-slider {
+  flex: 1;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 6px;
+  background: linear-gradient(to right, rgba(249, 122, 58, 0.489) 0%, rgba(249, 122, 58, 0.475) 100%);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAXVBMVEUAAAD+tADkjQDulwD5sgD4fAD5swD2twD4fAD2dAD8tgD5sgD8ygD8fwD7bgD7qQD6cgD6wwD3XgD+1gD8XwD+nQD+qQD+igD+fwD+lQD9ZgD9dAD/1AD/wAD/yQCYoCq1AAAAFXRSTlMA/g8riYpdSV1J6HfQ6NTDsZx29PRl29O5AAABj0lEQVQ4y7XU2Y6DMAwFULCzQEhZytCy9v8/c5zUEAJtRxqp9yFPR3b25OsBzAqKQviocllehmHous5UjYa3rO7v96e73W5pWqmXFOu+J3jfIKXBs8vLKYaVEMJYfYLX6QAVYNIsRh3qXUEeobYoloeJamI5SpBHaBx8WAwO6nGcvGTo5ocEtRCNbSA0/iHoJcMsQcTCKBoTMauo4OQlQ2prTJrSYFHMFkJBL3uSXBG01iItaKSKrWYoR4Ze+jkqpdwcUanCznPDncsVeklw2K96ntfeyJ39PpKkigfYoofZ6MKQpYOgE4a87msEBwnCt3bztAyLM3xKvj3LcoZTgE6+h+MODsLJM8yOsHMygoq35wi93MEWecO9iy8uyQAtbEdYZltU3bHcYBMuhYR8DWR+w1k62OpwzSSWF07OMCXp4OPZmdctE1yTZPxcvSTX7t5XXcqQiqGXBBvYP65w1rsPYHHSYvRcL/H2MCRZaCZBvoJL8fFLCdDq/31SnKyOYaXh40fqoakEs7+/5m/nFxkuRaeCL6reAAAAAElFTkSuQmCC');
+  background-color: rgba(255, 85, 0, 0.192);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  transition: .2s ease-in-out;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAXVBMVEUAAAD+tADkjQDulwD5sgD4fAD5swD2twD4fAD2dAD8tgD5sgD8ygD8fwD7bgD7qQD6cgD6wwD3XgD+1gD8XwD+nQD+qQD+igD+fwD+lQD9ZgD9dAD/1AD/wAD/yQCYoCq1AAAAFXRSTlMA/g8riYpdSV1J6HfQ6NTDsZx29PRl29O5AAABj0lEQVQ4y7XU2Y6DMAwFULCzQEhZytCy9v8/c5zUEAJtRxqp9yFPR3b25OsBzAqKQviocllehmHous5UjYa3rO7v96e73W5pWqmXFOu+J3jfIKXBs8vLKYaVEMJYfYLX6QAVYNIsRh3qXUEeobYoloeJamI5SpBHaBx8WAwO6nGcvGTo5ocEtRCNbSA0/iHoJcMsQcTCKBoTMauo4OQlQ2prTJrSYFHMFkJBL3uSXBG01iItaKSKrWYoR4Ze+jkqpdwcUanCznPDncsVeklw2K96ntfeyJ39PpKkigfYoofZ6MKQpYOgE4a87msEBwnCt3bztAyLM3xKvj3LcoZTgE6+h+MODsLJM8yOsHMygoq35wi93MEWecO9iy8uyQAtbEdYZltU3bHcYBMuhYR8DWR+w1k62OpwzSSWF07OMCXp4OPZmdctE1yTZPxcvSTX7t5XXcqQiqGXBBvYP65w1rsPYHHSYvRcL/H2MCRZaCZBvoJL8fFLCdDq/31SnKyOYaXh40fqoakEs7+/5m/nFxkuRaeCL6reAAAAAElFTkSuQmCC');
+  background-color: rgba(255, 85, 0, 0.178);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  transition: .2s ease-in-out;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 20px;
+  height: 8rem;
+}
+.value {
+  font-size: 26px;
+  margin-top: 40px;
+}
+.sel {
+  margin-right: 20px;
+}
+.lab {
+  margin-bottom: 100px;
+}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('TabWifi', this, '#D74D22')">Wifi</button>
+<button class="tablink" onclick="openPage('rgbClock', this, '#D74D22')" id="defaultOpen">RGB</button>
+<button class="tablink" onclick="openPage('Clock', this, '#D74D22')">Clock</button>
+<button class="tablink" onclick="openPage('About', this, '#D74D22')">About</button>
+
+<div id="TabWifi" class="tabcontent">
+    <div class= 'wrap'>
+      <h2>wifi</h2><hr>
+      <div><a href='#p' onclick='c(this)'>Access Point 01</a><div role='img' class='q q-4 l'></div></div>
+      <div><a href='#p' onclick='c(this)'>Access Point 02</a><div role='img' class='q q-4'></div></div>
+
+      <form method='get' action='wifisave'>
+                <label for='s'>SSID</label>
+                <br />
+                <input id='s' name='s' length=32 placeholder='SSID'>
+                <br />
+                <label for='p'>Password</label>
+                <input id='p' name='p' length=64 type='password' placeholder='password'>
+                <input type='checkbox' onclick='f()'> Show Password <br />
+                <br/><button type='submit'>Save</button></form>
+          <br/>
+            <form action='/wifi' method='get'><button>Refresh</button></form>
+      <dl>
+        <dt>IP</dt><dd>wifi.localip</dd>
+      </dl>
+    </div>
+  </div>
+
+<div id="rgbClock" class="tabcontent">
+  <div class= 'wrap'>
+    <form onsubmit="displayColors(event)">
+      <div class= 'cscontainer'>
+        <div class="ggLed">
+          <label for="colors">Mode:</label>
+          <select id="colors" name="mode" class="sel">
+            <option value="None">None</option>
+            <option value="Static">Static</option>
+            <option value="Rainbow">Rainbow</option>
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="White">White</option>
+            <option value="Custom">Custom</option>
+          </select>
+        </div>
+        <div class="ggLed">
+          <div class="range">
+            <div class="range-slider">
+              <label for="range">Brightness:</label><br />
+              <br />
+              <input type="range" min="0" max="100" value="0" id="range" name="brightness"/>
+            </div>
+            <div class="value">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="fcontainer">
+          <div class="item"><img id="image1" class="image"/></div>
+          <div class="item"><img id="image2" class="image"/></div>
+          <div class="item"><img id="image3" class="image"/></div>
+          <div class="item1stmid">
+            <div class="container">
+              <!-- Color pickers with a class for styling -->
+              <div class="ccontainer">
+                <input type="color" id="color-picker0" name="image0" class="color-pickerS"/>
+                <input type="color" id="color-picker1" name="image1" class="color-picker"/>
+                <input type="color" id="color-picker2" name="image2" class="color-picker"/>
+                <input type="color" id="color-picker3" name="image3" class="color-picker"/>
+                <input type="color" id="color-picker4" name="image4" class="color-picker"/>
+                <input type="color" id="color-picker5" name="image5" class="color-picker"/>
+                <input type="color" id="color-picker6" name="image6" class="color-picker"/>
+                <input type="color" id="color-picker7" name="image7" class="color-picker"/>
+                <input type="color" id="color-picker8" name="image8" class="color-picker"/>
+                <input type="color" id="color-picker9" name="image9" class="color-picker"/>
+                <input type="color" id="color-picker10" name="image10" class="color-picker"/>
+                <input type="color" id="color-picker11" name="image11" class="color-picker"/>
+                <input type="color" id="color-picker12" name="image12" class="color-picker"/>
+                <input type="color" id="color-picker13" name="image13" class="color-picker"/>
+                <input type="color" id="color-picker14" name="image14" class="color-picker"/>
+                <input type="color" id="color-picker15" name="image15" class="color-picker"/>
+                <input type="color" id="color-picker16" name="image16" class="color-picker"/>
+              </div>
+            </div>
+          </div>
+          <div class="item"><img id="image4" class="image"/></div>
+          <div class="item"><img id="image5" class="image"/></div>
+          <div class="item"><img id="image6" class="image"/></div>
+          <div class="item"><img id="image7" class="image"/></div>
+          <div class="item"><img id="image8" class="image"/></div>
+        </div>
+        <div class="fcontainer">
+          <div class="itemX"><img id="image9" class="image"/></div>
+          <div class="itemX"><img id="image10" class="image"/></div>
+          <div class="itemM"><img id="image11" class="image"/></div>
+          <div class="itemX"><img id="image12" class="image"/></div>
+          <div class="itemX"><img id="image13" class="image"/></div>
+          <div class="itemM"><img id="image14" class="image"/></div>
+          <div class="itemX"><img id="image15" class="image"/></div>
+          <div class="itemX"><img id="image16" class="image"/></div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- <a class="btn btn-primary" href="/page2" role="button">Page2</a> -->
+      <input type="submit" value="Submit" class="button"  id="Submit"/>
+      <br />
+    </form>
+  </div>
+</div>
+
+<div id="Clock" class="tabcontent">
+  <div class= 'wrap'>
+    <form method='get' action='setTime'>
+      <div class="cscontainer">
+      <label for="timezone">Timezone: </label>
+      <select id="timezone" name="timezone">
+        <option value=-12.0>(GMT-12:00) International Date Line West</option>
+        <option value=-11.0>(GMT-11:00) Midway Island, Samoa</option>
+        <option value=-10.0>(GMT-10:00) Hawaii</option>
+        <option value=-9.0>(GMT-9:00) Alaska</option>
+        <option value=-8.0>(GMT-8:00) Pacific Time (US and Canada)</option>
+        <option value=-7.0>(GMT-7:00) Mountain Time (US and Canada)</option>
+        <option value=-7.0>(GMT-7:00) Chihuahua, La Paz, Mazatlan</option>
+        <option value=-7.0>(GMT-7:00) Arizona</option>
+        <option value=-6.0>(GMT-6:00) Central Time (US and Canada)</option>
+        <option value=-6.0>(GMT-6:00) Saskatchewan</option>
+        <option value=-6.0>(GMT-6:00) Guadalajara, Mexico City, Monterrey</option>
+        <option value=-6.0>(GMT-6:00) Central America</option>
+        <option value=-5.0>(GMT-5:00) Eastern Time (US and Canada)</option>
+        <option value=-5.0>(GMT-5:00) Indiana (East)</option>
+        <option value=-5.0>(GMT-5:00) Bogota, Lima, Quito</option>
+        <option value=-4.0>(GMT-4:00) Atlantic Time (Canada)</option>
+        <option value=-4.0>(GMT-4:00) Caracas, La Paz</option>
+        <option value=-4.0>(GMT-4:00) Santiago</option>
+        <option value=-2.5>(GMT-3:30) Newfoundland and Labrador</option>
+        <option value=-3.0>(GMT-3:00) Brasilia</option>
+        <option value=-3.0>(GMT-3:00) Buenos Aires, Georgetown</option>
+        <option value=-3.0>(GMT-3:00) Greenland</option>
+        <option value=-2.0>(GMT-2:00) Mid-Atlantic</option>
+        <option value=-1.0>(GMT-1:00) Azores</option>
+        <option value=-1.0>(GMT-1:00) Cape Verde Islands</option>
+        <option value=0.0>(GMT+0:00) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London</option>
+        <option value=0.0>(GMT+0:00) Casablanca, Monrovia</option>
+        <option value=1.0>(GMT+1:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+        <option value=1.0>(GMT+1:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+        <option value=1.0>(GMT+1:00) Brussels, Copenhagen, Madrid, Paris</option>
+        <option value=1.0>(GMT+1:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+        <option value=1.0>(GMT+1:00) West Central Africa</option>
+        <option value=2.0>(GMT+2:00) Bucharest</option>
+        <option value=2.0>(GMT+2:00) Cairo</option>
+        <option value=2.0>(GMT+2:00) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius</option>
+        <option value=2.0>(GMT+2:00) Athens, Istanbul, Minsk</option>
+        <option value=2.0>(GMT+2:00) Jerusalem</option>
+        <option value=2.0>(GMT+2:00) Harare, Pretoria</option>
+        <option value=3.0>(GMT+3:00) Moscow, St. Petersburg, Volgograd</option>
+        <option value=3.0>(GMT+3:00) Kuwait, Riyadh</option>
+        <option value=3.0>(GMT+3:00) Nairobi</option>
+        <option value=3.0>(GMT+3:00) Baghdad</option>
+        <option value=3.5>(GMT+3:30) Tehran</option>
+        <option value=4.0>(GMT+4:00) Abu Dhabi, Muscat</option>
+        <option value=4.0>(GMT+4:00) Baku, Tbilisi, Yerevan</option>
+        <option value=4.5>(GMT+4:30) Kabul</option>
+        <option value=5.0>(GMT+5:00) Ekaterinburg</option>
+        <option value=5.0>(GMT+5:00) Islamabad, Karachi, Tashkent</option>
+        <option value=5.5>(GMT+5:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+        <option value=5.75>(GMT+5:45) Kathmandu</option>
+        <option value=6.0>(GMT+6:00) Astana, Dhaka</option>
+        <option value=6.0>(GMT+6:00) Sri Jayawardenepura</option>
+        <option value=6.0>(GMT+6:00) Almaty, Novosibirsk</option>
+        <option value=6.5>(GMT+6:30) Yangon Rangoon</option>
+        <option value=7.0>(GMT+7:00) Bangkok, Hanoi, Jakarta</option>
+        <option value=7.0>(GMT+7:00) Krasnoyarsk</option>
+        <option value=8.0>(GMT+8:00) Beijing, Chongqing, Hong Kong SAR, Urumqi</option>
+        <option value=8.0>(GMT+8:00) Kuala Lumpur, Singapore</option>
+        <option value=8.0>(GMT+8:00) Taipei</option>
+        <option value=8.0>(GMT+8:00) Perth</option>
+        <option value=8.0>(GMT+8:00) Irkutsk, Ulaanbaatar</option>
+        <option value=9.0>(GMT+9:00) Seoul</option>
+        <option value=9.0>(GMT+9:00) Osaka, Sapporo, Tokyo</option>
+        <option value=9.0>(GMT+9:00) Yakutsk</option>
+        <option value=9.5>(GMT+9:30) Darwin</option>
+        <option value=9.5>(GMT+9:30) Adelaide</option>
+        <option value=10.0>(GMT+10:00) Canberra, Melbourne, Sydney</option>
+        <option value=10.0>(GMT+10:00) Brisbane</option>
+        <option value=10.0>(GMT+10:00) Hobart</option>
+        <option value=10.0>(GMT+10:00) Vladivostok</option>
+        <option value=10.0>(GMT+10:00) Guam, Port Moresby</option>
+        <option value=11.0>(GMT+11:00) Magadan, Solomon Islands, New Caledonia</option>
+        <option value=12.0>(GMT+12:00) Fiji Islands, Kamchatka, Marshall Islands</option>
+        <option value=12.0>(GMT+12:00) Auckland, Wellington</option>
+        <option value=13.0>(GMT+13:00) Nuku'alofa</option>
+      </select>
+      
+      </div>
+      <input type="submit" value="Set Timezone" class="button"  id="buttonTimezone"/>
+    </form>
+    <form method='get' action='setTime'>
+      <div class="cscontainer">
+      <label for="day">Day: </label>
+      <select id="day" name="day"></select>
+      <label for="month">Month:</label>
+      <select id="month" name="month"></select>
+      <label for="year">Year:</label>
+      <select id="year" name="year"></select>
+    </div>
+      <input type="submit" value="Update Time" class="button"  id="updateTime"/>
+    </form>
+  </div>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<script>
+  function displayColors(event) {
+  event.preventDefault();
+  const colorValues = {};
+  const form = event.target;
+  colorValues["mode"] = colorSelect.value;
+  if (colorSelect.value === "Custom") {
+    for (const input of form.elements) {
+      if (input.type === "color") {
+        colorValues[input.name] = input.value;
+      }
+    }
+  }
+  if (colorSelect.value === "Static") {
+    colorValues["image"] = colorPickX.value;
+  }
+  const query = new URLSearchParams(colorValues).toString();
+  console.log(colorSelect.value);
+  window.location.href = `display_values.html?${query}`;
+}
+
+const images = document.querySelectorAll(".image");
+const colorSelect = document.getElementById("colors");
+const colorPickers = document.querySelectorAll(".color-picker");
+const colorPickX = document.getElementById("color-picker0");
+
+window.onload = function(){
+  const name = [
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000",
+    "#ff0000"
+  ];
+  const base64Index = [0, 0, 0, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1];
+  const base64Image = [
+    "data:image/png;base64,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",
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAD/AgMAAABX83a4AAAADFBMVEXO1NuXprQqLzNIYHm3cs7dAAAAAnRSTlMBtzqN2lYAAAROSURBVHgB7Zq5kuM2EIZ7T2U+noCPsnS0qW+H8yh8n0bVMBdXhs/ct8PNEXAcUAk0QNtdDYIiG1zJ98WebPAB9bF5FP6CAMcyHss1IS3NyheQj+dILCC0KI2YI5zXA9pr5CuYVeMUYus5UkWFBJjXjhQyACxk3AJps0qW8RnRKkkmI0pFyYBSUZ0BpaJkRiSraBlQKkpGENIquTMJsT9BoZorED8hhoZLq5g+lFwimoy0jmqN7E7Y+hEh3Trpi82rWNcORRVyCWnJY9AqxAMZ6VHL7CIaigmxN7EgUzkkooSEHTkzaBVjn5NjBM3wgPYmFLoSHpBnBO1X8CyirdV9bgdooiA1VCcGlcpXUBEjfL0FmWZvbM0DCLwcADlDH5zXR4SsxzIgl9tEpHmxigyANO31iHdzIrIKsAxgSP7dqTsvZBVgGbDD+Jw6nFUXZMBD6vwzj4u647ksA1Tnz8m8UqMqgpCaqZA0d5eRB2WEB+DFGnJIAwSHNcRm5A9Y5X/gsrlsLpvL5rK5bC6by/3lVcLqKnUauLzFIRj3Qye9lxpXsW/PA1Ou9juZG6Eb5hkwl72XuQ5uj2kvjkso1DIXkMa9eLxFl2uPaD+RuWmnWnlJwjb/eWwHmQusJbFgXlFSbeVk18zLGbvcEiPJXEBzqIFVjm/Oihzat3kur9J+ApXOCo3nf+2iIAOwytsqCZvAKozgkVUOhbwX6mYvCD2PaEpJ2H5JOdlEuXQl8zJmxKnwIzI0BTHHV65ljHUJMVY6qWUygq1bScKdH5HOS1e0zBRQ4xVJWKtIqpmQdrgUc/GKmGtDGZl07YnqYhK2LiM6Wcpje5e7G103FJMw4YhwdCuq5CRs9Z1OKrTPSGQZHcrtSy+ICRzRB61i6DlhjrmIQavcBh5IMbfxxtZKhV8Nn2OuZ1CpfMUD/DZyzOUpWqXmAUYGeQjnMg9+UTnKAPBy7KZfe4m5jLAnVNynefFc4AEwEnP9EulZRT5BoskN6PG89n2QAQf01doXc0gDYOuV726aW8XVmCvt5gG4F+TREhn79GRC/Ary4BWrHBRyWl/lxfWr+H/QKieNXFwlXHY5/EOu6Ld39x/Qlz/4iv5BfdFP3fYebe/R9h5t79H/6j26/wNcrtoo0ep2KyH+FZu279Lcaeu3rDEiI5hjUjFeJ2G2dem0pVJ7zD3mPea4mV0eyPQSAisvJz+ssjj5uUlRsjnbWEs6z/WE99E1qyBwA3i5Th/45r03yzSucODLMpVPSZhVgoo+LNPkwLESc8NbY8ylG0kKWuZHn5ONqGgZ6nMSFhUtQzmrkahomQmJWoVl9mhxSsKiomQ6l5E7UVHxx/yaA19D5dPc87Bs3/5tSfjBLHJ3x5JuzC5cVL7oc8RecVY+rKlkxFxxbh9qrbJA7OXfECiZrJIRc9Qqc0R3pvIKad9eqPQaGRYqTiEmLGPuxZ+CxN+GdDOizyr4M8Y0MYB1NsC/AAAAAElFTkSuQmCC",
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAD/AgMAAAD3QNwTAAAADFBMVEVHcEyWpbMqLzNHYHl/wKvlAAAAAnRSTlMAlfb2qvMAAACeSURBVHgB7dW1AcJAFIDhh4/BKlkiNWNQZh68Rm8KhkBLnJPoeYfz/uqLew66sm8zeqh4pJqlXUwf23FRbBJAXCOZ77FjnYo6/9nrU2V96p5f8cxvXPzrP2X/ZBnGtZgwy1tDT7H2jIZ/8H6i0Wj0RPFCMVHMlHGKqA6TotjzAOKase8gPQf//Pet8/nnybJ7S7v6OJVzL+ZTHLN+zBzsPnjfhXxQjwAAAABJRU5ErkJggg=="];
+  images.forEach(function (image, index) {
+    image.style.backgroundColor = name[index];
+    image.src = base64Image[base64Index[index]];
+  });
+  colorPickers.forEach(function (colorPicker, index) {
+  colorPicker.value = name[index];
+  });
+};
+
+colorSelect.addEventListener("change", function () {
+  images.forEach(function (image, index) {
+    colorPickers[index].style.visibility = "visible";
+    image.addEventListener("click", function () {
+      if (colorSelect.value === "Custom") {
+        colorPickers[index].click(); 
+        colorPickers[index].addEventListener("input", () => {
+          image.style.backgroundColor = colorPickers[index].value;
+        });
+      }
+      if (colorSelect.value === "Static") {
+        colorPickX.click();
+        colorPickX.addEventListener("input", () => {
+          images.forEach(function (img) {
+            img.style.backgroundColor = colorPickX.value;
+          });
+        });
+      }
+    });
+  });
+});
+function c(l){document.getElementById('s').value=l.innerText||l.textContent;
+    p = l.nextElementSibling.classList.contains('l');
+    document.getElementById('p').disabled = !p;
+    if(p)document.getElementById('p').focus()};
+    function f() {var x = document.getElementById('p');x.type==='password'?x.type='text':x.type='password';}
+const sliderEl = document.querySelector("#range");
+const sliderValue = document.querySelector(".value");
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value;
+  sliderValue.textContent = tempSliderValue;
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+  sliderEl.style.background = `linear-gradient(to right, #f50 ${progress}%, rgba(249, 122, 58, 0.489) ${progress}%)`;
+});
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+var daySelect = document.getElementById("day");
+var monthSelect = document.getElementById("month");
+var yearSelect = document.getElementById("year");
+
+for (var i = 1; i <= 31; i++) {
+  var option = document.createElement("option");
+  option.value = i;
+  option.text = i;
+  daySelect.appendChild(option);
+}
+for (var i = 1; i <= 12; i++) {
+  var option = document.createElement("option");
+  option.value = i;
+  option.text = i;
+  monthSelect.appendChild(option);
+}
+for (var i = 2023; i <= 3000; i++) {
+  var option = document.createElement("option");
+  option.value = i;
+  option.text = i;
+  yearSelect.appendChild(option);
+}
+</script>
+   
+</body>
+</html> 

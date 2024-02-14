@@ -1,0 +1,60 @@
+
+<!DOCTYPE html><html lang="en"><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\"/><title>{v}</title>
+  <style>
+:root{
+    --primarycolor:#1fa3ec;
+}
+body.invert, body.invert a, body.invert h1 {
+    background-color:rgb(108, 108, 108);
+    color:white;
+}
+
+.wrap {
+    text-align:left;
+    display:inline-block;
+    min-width:260px;
+    max-width:500px;
+}
+
+div{
+    margin: 5px 0;
+}
+input,button,select,.msg{
+    border-radius:.3rem;
+    width: 100%;
+}
+
+button,input[type='button'],input[type='submit'] {
+    border: 0;
+    background-color: var(--primarycolor);
+    color: #fff;
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+}
+
+button{
+    transition: 0s opacity;
+    transition-delay: 3s;
+    transition-duration: 0s;
+    cursor: pointer;
+}
+button:active{
+    opacity: 50% !important;
+    cursor: wait;
+    transition-delay: 0s;
+}
+:disabled {
+    opacity: 0.5;
+}
+</style> 
+    </head>
+    <body class="invert">
+      <div class='wrap'>
+        <form action='/RELAY=ON' method='get'><button>ON</button></form>
+    </div>
+    <div class='wrap'>
+        <form action='/RELAY=OFF' method='get'><button>OFF</button></form>
+      </div>
+    </body>
+  </html>
+ 

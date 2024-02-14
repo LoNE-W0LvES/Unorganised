@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.range-slider {
+  flex: 1;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 6px;
+  background: linear-gradient(to right, rgba(249, 122, 58, 0.783) 0%, rgba(249, 122, 58, 0.783) 100%);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAXVBMVEUAAAD+tADkjQDulwD5sgD4fAD5swD2twD4fAD2dAD8tgD5sgD8ygD8fwD7bgD7qQD6cgD6wwD3XgD+1gD8XwD+nQD+qQD+igD+fwD+lQD9ZgD9dAD/1AD/wAD/yQCYoCq1AAAAFXRSTlMA/g8riYpdSV1J6HfQ6NTDsZx29PRl29O5AAABj0lEQVQ4y7XU2Y6DMAwFULCzQEhZytCy9v8/c5zUEAJtRxqp9yFPR3b25OsBzAqKQviocllehmHous5UjYa3rO7v96e73W5pWqmXFOu+J3jfIKXBs8vLKYaVEMJYfYLX6QAVYNIsRh3qXUEeobYoloeJamI5SpBHaBx8WAwO6nGcvGTo5ocEtRCNbSA0/iHoJcMsQcTCKBoTMauo4OQlQ2prTJrSYFHMFkJBL3uSXBG01iItaKSKrWYoR4Ze+jkqpdwcUanCznPDncsVeklw2K96ntfeyJ39PpKkigfYoofZ6MKQpYOgE4a87msEBwnCt3bztAyLM3x09vLIbBlzVCawAAAABJRU5ErkJggg==');
+  background-color: rgba(255, 85, 0, 0.192);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0;
+  transition: .2s ease-in-out;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAXVBMVEUAAAD+tADkjQDulwD5sgD4fAD5swD2twD4fAD2dAD8tgD5sgD8ygD8fwD7bgD7qQD6cgD6wwD3XgD+1gD8XwD+nQD+qQD+igD+fwD+lQD9ZgD9dAD/1AD/wAD/yQCYoCq1AAAAFXRSTlMA/g8riYpdSV1J6HfQ6NTDsZx29PRl29O5AAABj0lEQVQ4y7XU2Y6DMAwFULCzQEhZytCy9v8/c5zUEAJtRxqp9yFPR3b25OsBzAqKQviocllehmHous5UjYa3r3vfZm2aEpkC5sleYX2aESs5EhUwZ7tJKrQAAAAZ0lEQVQ4y2KjAQDARRD0d2bABiuERnoCEJOugisWz08A3pAE2O/0CdoXTpq4RQm/jjrR5xEr0F6BZzF+DrCPBQzDB5jfR0wxtC5OpRQLATeYB4OBCNpu5ioQukjoVJ1XjAqIRJ6CjRQ5Wh9O5wAAAABJRU5ErkJggg==');
+  background-color: rgba(255, 85, 0, 0.178);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0;
+  transition: .2s ease-in-out;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 8rem;
+  width: 80%;
+  background: #fff;
+  padding: 0px 10px;
+}
+
+.value {
+  font-size: 26px;
+  width: 50px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="range">
+  <div class="range-slider">
+    <label for="range">Select a pleasant temperature:</label><br />
+    <input type="range" min="0" max="100" value="0" id="range"/>
+  </div>
+
+  <div class="value">0</div>
+</div>
+
+<script>
+const sliderEl = document.querySelector("#range");
+const sliderValue = document.querySelector(".value");
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value;
+
+  sliderValue.textContent = tempSliderValue;
+
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+
+  sliderEl.style.background = `linear-gradient(to right, rgba(249, 122, 58, 0.783) ${progress}%, rgba(249, 122, 58, 0.783) ${progress}%)`;
+});
+</script>
+
+</body>
+</html>

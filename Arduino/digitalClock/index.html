@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    function fetchWifiData() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/scan-wifi", true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          var wifiData = JSON.parse(xhr.responseText);
+
+          var wifiList = document.getElementById("wifi-list");
+          wifiList.innerHTML = "<h2>Available Wi-Fi Networks:</h2>";
+
+          for (var i = 0; i < wifiData.length; i++) {
+            var network = wifiData[i];
+            wifiList.innerHTML +=
+              "SSID: " + network.SSID + "<br>" +
+              "RSSI: " + network.RSSI + " dBm<br>" +
+              "Signal Strength: " + network.SignalStrength + "%<br><br>";
+          }
+        }
+      };
+      xhr.send();
+    }
+
+    window.onload = function() {
+      fetchWifiData();
+    };
+  </script>
+</head>
+
+<body>
+  <h1>ESP32 Web Server</h1>
+  <a href="javascript:void(0);" onclick="fetchWifiData();">Scan Wi-Fi Networks</a>
+  <div id="wifi-list"></div>
+</body>
+
+</html>

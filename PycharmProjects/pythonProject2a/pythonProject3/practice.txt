@@ -1,0 +1,55 @@
+# test = "hi I'm horny Nafi"
+# # variabletestnum = 50
+# s = list(test)
+# print(s)
+# test2 = test[0].capitalize()
+# s[int(len(s) - len(s))] = test2
+# ss = "".join(s)
+# print(ss)
+
+# test2 = test[0].capitalize()
+# print(test)
+# print(test[0].upper())
+# print(test2)
+
+
+# is_ma = True
+#
+# if is_ma: print(test +"," + " I'm Nafi")
+# print(variabletestnum + variabletestnum)
+#
+
+# s = list(test)
+# print(s)
+
+# f = open("test.txt", "r")
+# # print(f.read())
+# # print(f.readline())
+# # print(f.readline())
+# lines = f.readlines()
+# print (lines[1])
+# print (lines[0])
+# import random
+#
+# rantest = random.randint(1, 100)
+#
+# print(rantest)
+# random module is imported
+# import random
+# # choose a random element from a list
+# from random import seed
+# answer = set()
+# sampleSize = 10
+# answerSize = 0
+#
+# while answerSize < sampleSize:
+#     r = random.randint(0,100)
+#     if r not in answer:
+#         answerSize += 1
+#         answer.add(r)
+#         print(r)
+# sg.Window(title="hello World", layout=[[]], margins=(100,50)).read()
+# layout=[
+#     [sg.Text("hello World")],
+#     [sg.Button("OK")]
+# ]

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55722602984",
+    "project_id": "esp32door-f40d1",
+    "storage_bucket": "esp32door-f40d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55722602984:android:edc54606388a276c1eb45d",
+        "android_client_info": {
+          "package_name": "com.lonewolves.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55722602984-jpvllqfga4enobsl246ne7k495pvckae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCX57wBZTWBI5CwK8DYYh9SXWMpXVM0ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55722602984-jpvllqfga4enobsl246ne7k495pvckae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:10.000" style="s2">[English subtitles are available]</p>
+<p begin="00:01:36.130" end="00:01:39.620" style="s2">[Love you seven times]</p>
+<p begin="00:01:40.560" end="00:01:43.250" style="s2">[Southern Heavenly Gate]</p>
+<p begin="00:01:40.740" end="00:01:42.100" style="s2">In ancient times,</p>
+<p begin="00:01:42.170" end="00:01:43.850" style="s2">the land of the iridescent clouds opened up,</p>
+<p begin="00:01:44.180" end="00:01:46.310" style="s2">and the six realms were born according to fate,</p>
+<p begin="00:01:46.380" end="00:01:47.630" style="s2">with one in each position.</p>
+<p begin="00:01:48.539" end="00:01:50.660" style="s2">The realm I&#39;m in</p>
+<p begin="00:01:50.900" end="00:01:52.450" style="s2">is the most prominent place</p>
+<p begin="00:01:52.820" end="00:01:54.380" style="s2">among the six realms.</p>
+<p begin="00:01:56.380" end="00:01:58.660" style="s2">It&#39;s right above these iridescent clouds.</p>
+<p begin="00:01:59.080" end="00:02:00.990" style="s2">It&#39;s the current leader of the six realms,</p>
+<p begin="00:02:01.460" end="00:02:02.860" style="s2">the supreme</p>
+<p begin="00:02:03.660" end="00:02:04.700" style="s2">Heaven Realm.</p>
+<p begin="00:02:04.960" end="00:02:08.680" style="s2">[Heavenly Palace]</p>
+<p begin="00:02:10.440" end="00:02:12.920" style="s2">[Episode 1]</p>
+<p begin="00:02:13.820" end="00:02:15.250" style="s2">Our Heaven Realm</p>
+<p begin="00:02:15.440" end="00:02:17.260" style="s2">[Marriage Pavilion]</p>
+<p begin="00:02:15.660" end="00:02:16.220" style="s2">is</p>
+<p begin="00:02:16.260" end="00:02:17.440" style="s2">where all immortals assemble</p>
+<p begin="00:02:17.540" end="00:02:18.780" style="s2">and gather together.</p>
+<p begin="00:02:18.980" end="00:02:19.980" style="s2">All the deities</p>
+<p begin="00:02:20.160" end="00:02:21.440" style="s2">have their own duties.</p>
+<p begin="00:02:22.530" end="00:02:23.500" style="s2">Among these duties,</p>
+<p begin="00:02:23.980" end="00:02:25.260" style="s2">there&#39;s of course</p>
+<p begin="00:03:34.820" end="00:03:35.610" style="s2">Lady Wan?</p>
+<p begin="00:04:01.380" end="00:04:02.690" style="s2">Xiangzi! Xiangzi!</p>
+<p begin="00:04:07.260" end="00:04:08.100" style="s2">Xiangzi.</p>
+<p begin="00:04:08.980" end="00:04:11.020" style="s2">My name is Xiangyun. Xiangyun! Xiangyun!</p>
+<p begin="00:04:11.380" end="00:04:13.780" style="s2">I&#39;m a beautiful lady,</p>
+<p begin="00:04:14.130" end="00:04:14.900" style="s2">but why do I turn into</p>
+<p begin="00:04:14.900" end="00:04:16.339" style="s2">a mortal eunuch when you call me?</p>
+<p begin="00:04:17.140" end="00:04:17.700" style="s2">Xiangzi...</p>
+<p begin="00:04:19.050" end="00:04:19.779" style="s2">Xiangyun.</p>
+<p begin="00:04:19.110" end="00:04:20.690" style="s2">[Immortal Li]</p>
+<p begin="00:04:20.980" end="00:04:21.820" style="s2">Bad news.</p>
+<p begin="00:04:21.820" end="00:04:23.580" style="s2">The Red Thread Master is crying again.</p>
+<p begin="00:04:24.610" end="00:04:25.050" style="s2">It’s okay.</p>
+<p begin="00:04:25.080" end="00:04:27.120" style="s2">Don&#39;t cry anymore, sir.</p>
+<p begin="00:04:25.440" end="00:04:27.440" style="s2">[Master of the Marriage Pavilion, Red Thread Master]</p>
+<p begin="00:04:27.930" end="00:04:28.990" style="s2">Within seven days,</p>
+<p begin="00:04:29.380" end="00:04:31.690" style="s2">if I can&#39;t</p>
+<p begin="00:04:32.580" end="00:04:35.520" style="s2">help Immortal Chu Kong get married,</p>
+<p begin="00:04:36.490" end="00:04:37.400" style="s2">then...</p>
+<p begin="00:04:37.700" end="00:04:38.490" style="s2">Then what?</p>
+<p begin="00:04:39.370" end="00:04:43.480" style="s2">Then they&#39;ll demolish our Marriage Pavilion.</p>
+<p begin="00:04:45.450" end="00:04:46.580" style="s2">How can they do that?</p>
+<p begin="00:04:46.900" end="00:04:47.700" style="s2">Our Marriage Pavilion</p>
+<p begin="00:04:47.780" end="00:04:48.580" style="s2">shoulders</p>
+<p begin="00:04:48.580" end="00:04:50.150" style="s2">the hopes of all who&#39;s seeking for love in the mortal world.</p>
+<p begin="00:04:50.640" end="00:04:52.080" style="s2">How can they just demolish it?</p>
+<p begin="00:04:52.230" end="00:04:53.750" style="s2">Which palace was the immortal envoy from?</p>
+<p begin="00:04:53.780" end="00:04:54.880" style="s2">How dare they be so arrogant</p>
+<p begin="00:04:55.220" end="00:04:56.780" style="s2">and bully us?</p>
+<p begin="00:04:57.220" end="00:04:59.460" style="s2">Watch me break his legs</p>
+<p begin="00:04:59.840" end="00:05:01.400" style="s2">and seek justice for you, sir.</p>
+<p begin="00:05:01.610" end="00:05:02.940" style="s2">It was God Haoxuan.</p>
+<p begin="00:05:07.980" end="00:05:09.610" style="s2">It was God Haoxuan?</p>
+<p begin="00:05:10.900" end="00:05:12.460" style="s2">You should also be more sensible.</p>
+<p begin="00:05:12.770" end="00:05:14.240" style="s2">His Holiness has to manage everything every day.</p>
+<p begin="00:05:14.550" end="00:05:15.800" style="s2">It&#39;s inevitable that he said a few harsh words.</p>
+<p begin="00:05:15.860" end="00:05:17.980" style="s2">Why take it to heart?</p>
+<p begin="00:05:20.990" end="00:05:24.270" style="s2">Who is this Immortal Chu Kong?</p>
+<p begin="00:05:23.280" end="00:05:23.940" style="s2">[An immortal of Marriage Pavilion, Jia Yun]</p>
+<p begin="00:05:24.580" end="00:05:25.580" style="s2">I only heard that</p>
+<p begin="00:05:25.580" end="00:05:26.660" style="s2">30,000 years ago,</p>
+<p begin="00:05:26.780" end="00:05:28.340" style="s2">he killed the devil Cang Hai</p>
+<p begin="00:05:28.580" end="00:05:29.660" style="s2">and protected the peace of the six realms.</p>
+<p begin="00:05:30.020" end="00:05:30.820" style="s2">But I</p>
+<p begin="00:05:31.090" end="00:05:32.400" style="s2">have never seen his face before.</p>
+<p begin="00:05:33.050" end="00:05:33.760" style="s2">You&#39;re not the only one.</p>
+<p begin="00:05:33.820" end="00:05:34.820" style="s2">Many people have never seen</p>
+<p begin="00:05:35.140" end="00:05:35.890" style="s2">the ancient deity.</p>
+<p begin="00:05:36.020" end="00:05:36.700" style="s2">He&#39;s very mysterious.</p>
+<p begin="00:05:36.980" end="00:05:38.020" style="s2">Sir, you poor thing.</p>
+<p begin="00:05:38.020" end="00:05:39.780" style="s2">You&#39;ve been trying your best to find him a match.</p>
+<p begin="00:05:40.510" end="00:05:41.460" style="s2">It&#39;s been 30,000 years,</p>
+<p begin="00:05:41.900" end="00:05:43.780" style="s2">but he has never accepted any match.</p>
+<p begin="00:05:44.010" end="00:05:45.170" style="s2">Even the chances of love</p>
+<p begin="00:05:45.460" end="00:05:46.890" style="s2">have been avoided by him several times.</p>
+<p begin="00:05:48.159" end="00:05:50.120" style="s2">This marriage is a tough challenge indeed.</p>
+<p begin="00:05:51.620" end="00:05:54.030" style="s2">But His Holiness has given an absolute order.</p>
+<p begin="00:05:54.880" end="00:05:56.880" style="s2">If the Marriage Pavilion were demolished,</p>
+<p begin="00:05:57.140" end="00:05:59.690" style="s2">I don&#39;t want to live anymore.</p>
+<p begin="00:06:00.660" end="00:06:01.430" style="s2">Sir.</p>
+<p begin="00:06:02.580" end="00:06:03.340" style="s2">How about this?</p>
+<p begin="00:06:03.800" end="00:06:04.770" style="s2">Consider</p>
+<p begin="00:06:04.980" end="00:06:05.980" style="s2">learning to write Fate Books from me.</p>
+<p begin="00:06:06.340" end="00:06:07.340" style="s2">The Fate Bureau is short of people.</p>
+<p begin="00:06:07.340" end="00:06:07.780" style="s2">You...</p>
+<p begin="00:06:10.310" end="00:06:11.950" style="s2">I&#39;m incompetent. I failed my duty.</p>
+<p begin="00:06:11.990" end="00:06:12.820" style="s2">-I’m sad.<br />-Sir.</p>
+<p begin="00:06:12.820" end="00:06:14.660" style="s2">I&#39;m pessimistic and hopeless.</p>
+<p begin="00:06:15.260" end="00:06:16.020" style="s2">Sir.</p>
+<p begin="00:06:16.340" end="00:06:17.080" style="s2">Don’t worry.</p>
+<p begin="00:06:17.460" end="00:06:18.020" style="s2">With this matter,</p>
+<p begin="00:06:18.020" end="00:06:20.050" style="s2">Xiangzi will definitely help you solve it.</p>
+<p begin="00:06:27.580" end="00:06:28.460" style="s2">Actually, about this matter, I...</p>
+<p begin="00:06:28.460" end="00:06:29.340" style="s2">Xiangzi.</p>
+<p begin="00:06:30.070" end="00:06:32.520" style="s2">You&#39;ve always been smart.</p>
+<p begin="00:06:32.900" end="00:06:34.909" style="s2">-Well…<br />-I knew you would find a solution.</p>
+<p begin="00:06:40.460" end="00:06:41.140" style="s2">Xiangyun.</p>
+<p begin="00:06:48.270" end="00:06:48.980" style="s2">Well,</p>
+<p begin="00:06:50.560" end="00:06:52.320" style="s2">I&#39;ll try...</p>
+<p begin="00:06:52.340" end="00:06:52.760" style="s2">Okay.</p>
+<p begin="00:06:54.260" end="00:06:54.659" style="s2">This...</p>
+<p begin="00:06:57.190" end="00:06:57.630" style="s2">Sorry.</p>
+<p begin="00:07:06.140" end="00:07:06.780" style="s2">By the way,</p>
+<p begin="00:07:07.220" end="00:07:08.200" style="s2">in ancient times,</p>
+<p begin="00:07:08.580" end="00:07:09.700" style="s2">30,000 years ago,</p>
+<p begin="00:07:10.140" end="00:07:12.260" style="s2">there were Moluo, Qilin and Dixiu,</p>
+<p begin="00:07:12.260" end="00:07:13.340" style="s2">the three divine clans</p>
+<p begin="00:07:13.340" end="00:07:14.390" style="s2">standing in the world.</p>
+<p begin="00:07:14.700" end="00:07:16.700" style="s2">Among them, the leader of Moluo, Cang Hai,</p>
+<p begin="00:07:16.900" end="00:07:18.340" style="s2">had supreme divine power,</p>
+<p begin="00:07:18.340" end="00:07:20.140" style="s2">and hence was respected as the head of the six realms.</p>
+<p begin="00:07:20.460" end="00:07:21.660" style="s2">However, according to the Heavenly Divine Oracle,</p>
+<p begin="00:07:21.660" end="00:07:22.860" style="s2">the empress Cang Hai</p>
+<p begin="00:07:22.900" end="00:07:24.530" style="s2">will eventually turn into a devil that will exterminate the world.</p>
+<p begin="00:07:25.080" end="00:07:26.720" style="s2">The people in the six realms were plunged into misery</p>
+<p begin="00:07:26.780" end="00:07:27.900" style="s2">and were in danger.</p>
+<p begin="00:07:28.100" end="00:07:28.970" style="s2">But at that moment,</p>
+<p begin="00:07:29.200" end="00:07:31.100" style="s2">a heroic young man with an imposing demeanor</p>
+<p begin="00:07:31.300" end="00:07:32.430" style="s2">descended from the sky</p>
+<p begin="00:07:32.659" end="00:07:34.490" style="s2">and fought with the devil Cang Hai.</p>
+<p begin="00:07:34.820" end="00:07:37.190" style="s2">This young man sacrificed half of his primordial spirit</p>
+<p begin="00:07:37.320" end="00:07:40.020" style="s2">and finally annihilated the devil Cang Hai,</p>
+<p begin="00:07:40.260" end="00:07:42.740" style="s2">and brought peace back to the six realms.</p>
+<p begin="00:07:46.580" end="00:07:47.700" style="s2">That&#39;s horrifying.</p>
+<p begin="00:07:47.750" end="00:07:50.220" style="s2">The handsome young man I just mentioned</p>
+<p begin="00:07:50.480" end="00:07:53.140" style="s2">is the male lead of our love auction today.</p>
+<p begin="00:07:54.170" end="00:07:56.630" style="s2">He is also the most amazing figure in the world.</p>
+<p begin="00:07:57.900" end="00:07:59.100" style="s2">The royal descendant of Qilin.</p>
+<p begin="00:07:59.500" end="00:08:00.940" style="s2">The God of War of the six realms.</p>
+<p begin="00:08:01.330" end="00:08:03.390" style="s2">Immortal Chu Kong.</p>
+<p begin="00:08:09.980" end="00:08:10.820" style="s2">Why is he so old?</p>
+<p begin="00:08:10.820" end="00:08:11.140" style="s2">Well...</p>
+<p begin="00:08:11.340" end="00:08:13.120" style="s2">This can&#39;t be it, right?</p>
+<p begin="00:08:14.520" end="00:08:15.290" style="s2">Sorry.</p>
+<p begin="00:08:15.460" end="00:08:16.020" style="s2">I took the wrong one.</p>
+<p begin="00:08:16.260" end="00:08:16.820" style="s2">I took the wrong one.</p>
+<p begin="00:08:20.300" end="00:08:22.060" style="s2">Immortal Chu Kong.</p>
+<p begin="00:08:24.740" end="00:08:26.260" style="s2">Even his back is so handsome.</p>
+<p begin="00:08:28.060" end="00:08:29.100" style="s2">Pipe down.</p>
+<p begin="00:08:29.500" end="00:08:30.740" style="s2">As they say,</p>
+<p begin="00:08:30.830" end="00:08:32.669" style="s2">one who loses their position and influence</p>
+<p begin="00:08:33.100" end="00:08:34.980" style="s2">may be subjected to much indignity.</p>
+<p begin="00:08:36.460" end="00:08:37.150" style="s2">Today,</p>
+<p begin="00:08:37.220" end="00:08:39.850" style="s2">this man who has been in the Heaven Realm for years</p>
+<p begin="00:08:40.049" end="00:08:42.280" style="s2">has finally decided to go to the mortal world.</p>
+<p begin="00:08:42.590" end="00:08:46.000" style="s2">He&#39;s going to fall into the embrace of a fairy.</p>
+<p begin="00:08:48.100" end="00:08:48.860" style="s2">Why are you hesitating?</p>
+<p begin="00:08:48.970" end="00:08:50.000" style="s2">What are you waiting for?</p>
+<p begin="00:08:50.090" end="00:08:51.700" style="s2">This is the perfect chance for you</p>
+<p begin="00:08:51.700" end="00:08:54.090" style="s2">to be romantically linked with Immortal Chu Kong.</p>
+<p begin="00:08:54.420" end="00:08:54.980" style="s2">Don&#39;t wait.</p>
+<p begin="00:08:54.980" end="00:08:55.620" style="s2">Today,</p>
+<p begin="00:08:55.620" end="00:08:56.430" style="s2">you won&#39;t make a loss.</p>
+<p begin="00:08:56.460" end="00:08:57.560" style="s2">I&#39;ll offer 30 spirit stones!</p>
+<p begin="00:08:57.700" end="00:08:58.340" style="s2">50 spirit stones!</p>
+<p begin="00:08:58.340" end="00:08:59.020" style="s2">I&#39;ll offer 100.</p>
+<p begin="00:08:59.180" end="00:09:00.310" style="s2">I&#39;ll offer 150.</p>
+<p begin="00:09:00.340" end="00:09:01.180" style="s2">I&#39;ll offer 201.</p>
+<p begin="00:09:01.180" end="00:09:01.860" style="s2">I&#39;ll offer 300.</p>
+<p begin="00:09:01.860" end="00:09:03.060" style="s2">Xiangyun, oh Xiangyun.</p>
+<p begin="00:09:03.060" end="00:09:04.500" style="s2">You sure are clever.</p>
+<p begin="00:09:04.540" end="00:09:05.510" style="s2">Judging from the situation,</p>
+<p begin="00:09:05.540" end="00:09:06.180" style="s2">there might</p>
+<p begin="00:09:06.200" end="00:09:07.280" style="s2">even be some spirit stones left over.</p>
+<p begin="00:09:07.420" end="00:09:08.940" style="s2">I can bring Red Thread Master and my sisters</p>
+<p begin="00:09:08.960" end="00:09:10.200" style="s2">on a trip to the other celestial regions.</p>
+<p begin="00:09:10.580" end="00:09:11.300" style="s2">I&#39;ll offer 500.</p>
+<p begin="00:09:11.980" end="00:09:12.980" style="s2">500?</p>
+<p begin="00:09:12.980" end="00:09:13.860" style="s2">That much?</p>
+<p begin="00:09:15.530" end="00:09:16.260" style="s2">Okay.</p>
+<p begin="00:09:16.860" end="00:09:17.340" style="s2">Everyone,</p>
+<p begin="00:09:17.620" end="00:09:18.590" style="s2">let&#39;s congratulate</p>
+<p begin="00:09:19.340" end="00:09:20.420" style="s2">-this...<br />-I&#39;ll offer 10,000 spirit stones.</p>
+<p begin="00:09:21.980" end="00:09:22.390" style="s2">10,000?</p>
+<p begin="00:09:23.640" end="00:09:24.430" style="s2">Who is that?</p>
+<p begin="00:09:24.700" end="00:09:25.660" style="s2">Who is that?</p>
+<p begin="00:09:45.090" end="00:09:46.870" style="s2">And I&#39;ll add a Nuwa Stone.</p>
+<p begin="00:09:45.130" end="00:09:47.040" style="s2">[Princess of the Eastern Sea, Yingshi]</p>
+<p begin="00:09:47.650" end="00:09:48.690" style="s2">A Nuwa Stone?</p>
+<p begin="00:10:03.180" end="00:10:03.790" style="s2">Why?</p>
+<p begin="00:10:04.200" end="00:10:05.040" style="s2">Is it not enough?</p>
+<p begin="00:10:06.000" end="00:10:06.350" style="s2">It&#39;s enough.</p>
+<p begin="00:10:06.700" end="00:10:07.460" style="s2">Of course it&#39;s enough.</p>
+<p begin="00:10:21.690" end="00:10:22.450" style="s2">Princess Yingshi.</p>
+<p begin="00:10:22.740" end="00:10:23.520" style="s2">From now on,</p>
+<p begin="00:10:23.740" end="00:10:25.680" style="s2">Immortal Chu Kong is yours.</p>
+<p begin="00:10:25.940" end="00:10:26.980" style="s2">Let&#39;s all congratulate</p>
+<p begin="00:10:27.060" end="00:10:28.420" style="s2">Princess Yingshi.</p>
+<p begin="00:10:29.230" end="00:10:31.530" style="s2">Congratulations, Princess.</p>
+<p begin="00:10:35.320" end="00:10:38.240" style="s2">[Mount Moluo]</p>
+<p begin="00:10:40.900" end="00:10:41.890" style="s2">Lord Protector, I&#39;m here to report that</p>
+<p begin="00:10:42.580" end="00:10:44.460" style="s2">we&#39;ve finally found the ancient artifact, Nuwa Stone.</p>
+<p begin="00:10:44.850" end="00:10:45.860" style="s2">It&#39;s now in the Heaven Realm.</p>
+<p begin="00:10:46.810" end="00:10:48.290" style="s2">As long as we get the Nuwa Stone,</p>
+<p begin="00:10:48.870" end="00:10:50.630" style="s2">we will have a chance to revive the monarch Cang Hai.</p>
+<p begin="00:10:52.020" end="00:10:52.810" style="s2">Lord Protector.</p>
+<p begin="00:10:52.160" end="00:10:55.490" style="s2">[Protector of the Moluo Divine Clan, Jin Lian]</p>
+<p begin="00:10:53.120" end="00:10:54.070" style="s2">We are always on standby.</p>
+<p begin="00:10:55.460" end="00:10:56.690" style="s2">We are always on standby.</p>
+<p begin="00:11:01.920" end="00:11:03.740" style="s2">The Heaven Realm killed my monarch,</p>
+<p begin="00:11:04.570" end="00:11:05.970" style="s2">slaughtered my people,</p>
+<p begin="00:11:07.700" end="00:11:09.280" style="s2">and regarded my Moluo Divine Clan</p>
+<p begin="00:11:10.910" end="00:11:13.120" style="s2">as a threat to the six realms.</p>
+<p begin="00:11:16.210" end="00:11:16.880" style="s2">Now,</p>
+<p begin="00:11:17.720" end="00:11:20.350" style="s2">Monarch Cang Hai is about to return.</p>
+<p begin="00:11:20.950" end="00:11:22.520" style="s2">It&#39;s been 30,000 years.</p>
+<p begin="00:11:21.690" end="00:11:23.480" style="s2">[Guard of the Moluo Divine Clan, Xie Feng]</p>
+<p begin="00:11:23.420" end="00:11:26.150" style="s2">I&#39;ve been waiting for this moment for 30,000 years.</p>
+<p begin="00:11:29.150" end="00:11:32.520" style="s2">[Southern Heavenly Gate]</p>
+<p begin="00:11:37.700" end="00:11:38.220" style="s2">Your Holiness.</p>
+<p begin="00:11:38.580" end="00:11:39.700" style="s2">The Moluo Clan is approaching aggressively.</p>
+<p begin="00:11:39.440" end="00:11:41.210" style="s2">[Immortal Sun]</p>
+<p begin="00:11:40.300" end="00:11:40.800" style="s2">I&#39;m afraid</p>
+<p begin="00:11:41.700" end="00:11:43.030" style="s2">the God of War has to come forward.</p>
+<p begin="00:11:44.560" end="00:11:46.280" style="s2">In order to restore his primordial spirit,</p>
+<p begin="00:11:46.850" end="00:11:48.220" style="s2">Chu Kong is currently in seclusion.</p>
+<p begin="00:11:48.900" end="00:11:50.580" style="s2">If we force him out,</p>
+<p begin="00:11:52.080" end="00:11:53.480" style="s2">I&#39;m afraid it might backfire.</p>
+<p begin="00:11:52.700" end="00:11:54.390" style="s2">[Heavenly Emperor Haoxuan]</p>
+<p begin="00:11:54.060" end="00:11:55.140" style="s2">But now the Heaven Realm</p>
+<p begin="00:11:55.620" end="00:11:56.380" style="s2">is in danger.</p>
+<p begin="00:11:57.570" end="00:11:59.340" style="s2">The safety of everyone depends on him alone.</p>
+<p begin="00:11:59.620" end="00:12:00.570" style="s2">We can&#39;t wait any longer.</p>
+<p begin="00:12:23.460" end="00:12:23.940" style="s2">This way.</p>
+<p begin="00:12:37.120" end="00:12:38.450" style="s2">I remember clearly that they were here.</p>
+<p begin="00:14:11.580" end="00:14:13.680" style="s2">[Ancient God of War, Chu Kong]</p>
+<p begin="00:14:27.190" end="00:14:27.610" style="s2">You...</p>
+<p begin="00:14:27.630" end="00:14:28.270" style="s2">Jin Lian.</p>
+<p begin="00:14:28.880" end="00:14:30.490" style="s2">I just took a nap,</p>
+<p begin="00:14:31.130" end="00:14:33.780" style="s2">and you&#39;ve managed to make the Heaven Realm so lively.</p>
+<p begin="00:14:35.410" end="00:14:36.050" style="s2">Indeed,</p>
+<p begin="00:14:37.580" end="00:14:39.030" style="s2">you&#39;re unbelievably stupid.</p>
+<p begin="00:14:39.340" end="00:14:40.620" style="s2">Enough with the nonsense.</p>
+<p begin="00:15:43.590" end="00:15:44.080" style="s2">Bind.</p>
+<p begin="00:16:13.240" end="00:16:13.620" style="s2">Hurry!</p>
+<p begin="00:16:13.860" end="00:16:14.700" style="s2">Keep that safe.</p>
+<p begin="00:16:14.730" end="00:16:16.370" style="s2">The Book of Marriage Prayers is the secret of the Heavenly Palace.</p>
+<p begin="00:16:59.120" end="00:17:00.290" style="s2">Jin Qilin?</p>
+<p begin="00:17:09.540" end="00:17:10.450" style="s2">Chu Kong?</p>
+<p begin="00:17:10.839" end="00:17:12.319" style="s2">Heaven and earth are turned upside down</p>
+<p begin="00:17:12.660" end="00:17:14.119" style="s2">right in front of us.</p>
+<p begin="00:17:19.220" end="00:17:19.859" style="s2">Could it be...</p>
+<p begin="00:17:21.420" end="00:17:27.700" style="s2">that he is... the God of War, Immortal Chu Kong?</p>
+<p begin="00:18:03.240" end="00:18:04.580" style="s2">[Chief of the Fate Bureau, Goddess of Fate]</p>
+<p begin="00:18:05.690" end="00:18:06.920" style="s2">The Heavenly Divine Oracle?</p>
+<p begin="00:18:07.770" end="00:18:18.100" style="s2">[Cang Hai will be resurrected within a thousand years]</p>
+<p begin="00:18:16.590" end="00:18:17.730" style="s2">Within 1,000 years,</p>
+<p begin="00:18:19.340" end="00:18:20.830" style="s2">Cang Hai will be resurrected.</p>
+<p begin="00:18:21.510" end="00:18:22.640" style="s2">Cang Hai will be resurrected?</p>
+<p begin="00:18:22.740" end="00:18:23.540" style="s2">Really?</p>
+<p begin="00:18:26.700" end="00:18:27.260" style="s2">Your Holiness.</p>
+<p begin="00:18:28.290" end="00:18:29.690" style="s2">If the calculations of the Fate Bureau are right,</p>
+<p begin="00:18:30.500" end="00:18:31.380" style="s2">the Heavenly Divine Oracle says that</p>
+<p begin="00:18:32.350" end="00:18:32.830" style="s2">the six realms</p>
+<p begin="00:18:33.590" end="00:18:34.540" style="s2">will face a calamity.</p>
+<p begin="00:18:36.300" end="00:18:36.900" style="s2">Your Holiness.</p>
+<p begin="00:18:37.260" end="00:18:37.940" style="s2">30,000 years ago,</p>
+<p begin="00:18:38.420" end="00:18:39.200" style="s2">although Immortal Chu Kong</p>
+<p begin="00:18:39.220" end="00:18:40.900" style="s2">personally killed that demon Cang Hai,</p>
+<p begin="00:18:41.380" end="00:18:43.140" style="s2">he lost half of his primordial spirit</p>
+<p begin="00:18:43.420" end="00:18:44.690" style="s2">and even lost all his memories</p>
+<p begin="00:18:44.690" end="00:18:45.420" style="s2">before and after that battle.</p>
+<p begin="00:18:45.760" end="00:18:46.990" style="s2">He paid a heavy price.</p>
+<p begin="00:18:47.620" end="00:18:48.980" style="s2">This time, he failed in his seclusion</p>
+<p begin="00:18:49.170" end="00:18:50.010" style="s2">and his primordial spirit was damaged.</p>
+<p begin="00:18:50.460" end="00:18:51.880" style="s2">Besides, after the battle with Jin Lian,</p>
+<p begin="00:18:52.110" end="00:18:53.350" style="s2">the recovery is becoming increasingly sluggish.</p>
+<p begin="00:18:53.700" end="00:18:55.140" style="s2">With the current divine power of the God of War,</p>
+<p begin="00:18:55.860" end="00:18:56.420" style="s2">I&#39;m afraid...</p>
+<p begin="00:18:56.740" end="00:18:58.940" style="s2">A thousand years are merely a moment&#39;s time.</p>
+<p begin="00:18:59.300" end="00:19:00.420" style="s2">In that case,</p>
+<p begin="00:19:00.860" end="00:19:02.060" style="s2">isn&#39;t the disaster</p>
+<p begin="00:19:02.970" end="00:19:04.780" style="s2">of the six realms near?</p>
+<p begin="00:19:06.670" end="00:19:08.150" style="s2">What should we do?</p>
+<p begin="00:19:09.490" end="00:19:10.700" style="s2">Everyone, don&#39;t worry.</p>
+<p begin="00:19:16.510" end="00:19:18.230" style="s2">Even if the devil comes back to life,</p>
+<p begin="00:19:19.430" end="00:19:21.800" style="s2">I’m confident I can kill him again.</p>
+<p begin="00:19:24.580" end="00:19:25.740" style="s2">In that case,</p>
+<p begin="00:19:26.860" end="00:19:27.820" style="s2">everyone,</p>
+<p begin="00:19:28.090" end="00:19:29.930" style="s2">why are you so worried?</p>
+<p begin="00:19:30.350" end="00:19:32.600" style="s2">There is the God of War Chu Kong in our Heaven Realm.</p>
+<p begin="00:19:33.340" end="00:19:35.120" style="s2">There&#39;s no need to be afraid of that devil.</p>
+<p begin="00:19:36.860" end="00:19:37.580" style="s2">So,</p>
+<p begin="00:19:39.640" end="00:19:40.260" style="s2">dismiss.</p>
+<p begin="00:19:52.740" end="00:19:53.460" style="s2">Chu Kong.</p>
+<p begin="00:19:56.040" end="00:19:56.920" style="s2">It&#39;s been 30,000 years.</p>
+<p begin="00:19:57.360" end="00:19:58.800" style="s2">You&#39;ve tried all kinds of methods,</p>
+<p begin="00:19:59.700" end="00:20:01.540" style="s2">but your primordial spirit hasn&#39;t fully recovered.</p>
+<p begin="00:20:01.980" end="00:20:03.490" style="s2">In these 81 hardships,</p>
+<p begin="00:20:04.860" end="00:20:05.860" style="s2">you&#39;re only without</p>
+<p begin="00:20:06.210" end="00:20:06.940" style="s2">the love tribulation.</p>
+<p begin="00:20:08.540" end="00:20:09.300" style="s2">Love tribulation?</p>
+<p begin="00:20:09.840" end="00:20:12.480" style="s2">I know you hate romantic love the most.</p>
+<p begin="00:20:12.780" end="00:20:13.500" style="s2">But now,</p>
+<p begin="00:20:14.220" end="00:20:16.190" style="s2">this is the only method you haven&#39;t tried.</p>
+<p begin="00:20:17.400" end="00:20:18.180" style="s2">I</p>
+<p begin="00:20:18.410" end="00:20:21.330" style="s2">have arranged for the Marriage Pavilion to help find you a match.</p>
+<p begin="00:20:21.900" end="00:20:23.320" style="s2">If you can overcome this love tribulation,</p>
+<p begin="00:20:23.890" end="00:20:25.810" style="s2">it might help you restore your primordial spirit.</p>
+<p begin="00:20:29.220" end="00:20:30.040" style="s2">Don&#39;t worry, Your Divinity.</p>
+<p begin="00:20:30.890" end="00:20:32.410" style="s2">I won&#39;t let anything happen to the six realms.</p>
+<p begin="00:20:40.490" end="00:20:41.260" style="s2">Chu Kong.</p>
+<p begin="00:20:42.310" end="00:20:42.940" style="s2">I&#39;m</p>
+<p begin="00:20:44.260" end="00:20:45.330" style="s2">still worried about you.</p>
+<p begin="00:20:53.770" end="00:20:54.290" style="s2">Xiangyun.</p>
+<p begin="00:20:54.980" end="00:20:56.700" style="s2">The Red Thread Master and Immortal Li are worried about you.</p>
+<p begin="00:20:57.810" end="00:20:58.650" style="s2">I&#39;m fine.</p>
+<p begin="00:20:59.300" end="00:20:59.730" style="s2">By the way,</p>
+<p begin="00:21:00.220" end="00:21:01.540" style="s2">was that yellow-haired fellow just now</p>
+<p begin="00:21:01.990" end="00:21:03.070" style="s2">really the God of War of the six realms,</p>
+<p begin="00:21:03.110" end="00:21:03.910" style="s2">Immortal Chu Kong?</p>
+<p begin="00:21:05.020" end="00:21:05.740" style="s2">Didn&#39;t you say</p>
+<p begin="00:21:05.770" end="00:21:07.060" style="s2">he&#39;s an ancient immortal</p>
+<p begin="00:21:07.220" end="00:21:08.450" style="s2">who&#39;s over 50,000 years old?</p>
+<p begin="00:21:08.940" end="00:21:10.700" style="s2">I heard that he knows the magic for eternal youth,</p>
+<p begin="00:21:11.060" end="00:21:12.800" style="s2">which means his magic prowess is unfathomable.</p>
+<p begin="00:21:14.050" end="00:21:14.980" style="s2">Who would have thought</p>
+<p begin="00:21:15.060" end="00:21:16.980" style="s2">a 50,000-year-old man would be able</p>
+<p begin="00:21:17.660" end="00:21:18.770" style="s2">to maintain himself so well?</p>
+<p begin="00:21:18.940" end="00:21:21.190" style="s2">Are you really going to</p>
+<p begin="00:21:21.220" end="00:21:21.980" style="s2">set the two of them up?</p>
+<p begin="00:21:23.260" end="00:21:23.620" style="s2">Well,</p>
+<p begin="00:21:23.780" end="00:21:24.940" style="s2">you heard what the Red Thread Master said</p>
+<p begin="00:21:24.940" end="00:21:25.970" style="s2">the last time.</p>
+<p begin="00:21:26.220" end="00:21:27.110" style="s2">If we can&#39;t help</p>
+<p begin="00:21:27.130" end="00:21:28.860" style="s2">Immortal Chu Kong find a match,</p>
+<p begin="00:21:28.890" end="00:21:30.370" style="s2">our Marriage Pavilion will be gone.</p>
+<p begin="00:21:32.830" end="00:21:35.000" style="s2">It&#39;s a pity that my Nuwa Stone</p>
+<p begin="00:21:35.860" end="00:21:37.980" style="s2">left me</p>
+<p begin="00:21:39.460" end="00:21:41.140" style="s2">before I could appreciate it properly.</p>
+<p begin="00:21:41.980" end="00:21:43.970" style="s2">Instead of being heartbroken about external belongings,</p>
+<p begin="00:21:44.460" end="00:21:45.650" style="s2">you&#39;d better think about</p>
+<p begin="00:21:45.650" end="00:21:46.780" style="s2">how to tie this relationship.</p>
+<p begin="00:21:47.560" end="00:21:48.640" style="s2">With His Divinity&#39;s divine power,</p>
+<p begin="00:21:49.220" end="00:21:50.310" style="s2">perhaps when you</p>
+<p begin="00:21:50.500" end="00:21:51.460" style="s2">just get close to him,</p>
+<p begin="00:21:51.850" end="00:21:52.450" style="s2">you&#39;ll be...</p>
+<p begin="00:21:56.300" end="00:21:56.960" style="s2">What</p>
+<p begin="00:21:57.150" end="00:21:58.830" style="s2">silly plans are you thinking about again?</p>
+<p begin="00:21:59.310" end="00:22:00.640" style="s2">Don&#39;t do anything stupid.</p>
+<p begin="00:22:01.500" end="00:22:03.380" style="s2">How can you call a good deed stupid?</p>
+<p begin="00:22:03.690" end="00:22:05.410" style="s2">We just need to keep it a secret from Red Thread Master.</p>
+<p begin="00:22:06.490" end="00:22:07.570" style="s2">Wait for my good news.</p>
+<p begin="00:22:09.060" end="00:22:09.780" style="s2">Xiangyun.</p>
+<p begin="00:22:10.360" end="00:22:11.030" style="s2">Xiangyun.</p>
+<p begin="00:22:19.070" end="00:22:19.470" style="s2">What are you doing?</p>
+<p begin="00:22:20.460" end="00:22:21.060" style="s2">What are you doing?</p>
+<p begin="00:22:23.460" end="00:22:24.590" style="s2">You&#39;re so childish.</p>
+<p begin="00:22:27.620" end="00:22:29.470" style="s2">How dare you steal an ancient magical artifact?</p>
+<p begin="00:22:30.650" end="00:22:32.250" style="s2">This is the treasure of your Pavilion.</p>
+<p begin="00:22:33.420" end="00:22:35.120" style="s2">If the Red Thread Master finds out you touched his treasure,</p>
+<p begin="00:22:35.220" end="00:22:36.260" style="s2">he will cry and make a scene again.</p>
+<p begin="00:22:37.540" end="00:22:38.850" style="s2">To deal with the ancient God of War,</p>
+<p begin="00:22:39.450" end="00:22:41.050" style="s2">we must use ancient magical artifacts.</p>
+<p begin="00:22:41.310" end="00:22:42.510" style="s2">I heard that</p>
+<p begin="00:22:43.120" end="00:22:44.230" style="s2">even if there&#39;s zero possibility</p>
+<p begin="00:22:44.260" end="00:22:45.460" style="s2">for two people who are not meant to be,</p>
+<p begin="00:22:45.840" end="00:22:47.440" style="s2">as long as they are connected by this Love Knot,</p>
+<p begin="00:22:47.780" end="00:22:49.300" style="s2">they&#39;ll definitely be tied into</p>
+<p begin="00:22:49.300" end="00:22:51.070" style="s2">an unbreakable bond of love.</p>
+<p begin="00:22:52.250" end="00:22:53.840" style="s2">An ancient magical artifact?</p>
+<p begin="00:22:57.500" end="00:22:58.740" style="s2">Since we&#39;re here,</p>
+<p begin="00:22:59.460" end="00:23:00.420" style="s2">I&#39;ll</p>
+<p begin="00:23:01.220" end="00:23:02.700" style="s2">help you check this out at least.</p>
+<p begin="00:23:08.280" end="00:23:10.290" style="s2">Ouch, it&#39;s hot!</p>
+<p begin="00:23:13.450" end="00:23:14.400" style="s2">Something is wrong with this thing.</p>
+<p begin="00:23:15.940" end="00:23:16.740" style="s2">Something is wrong?</p>
+<p begin="00:23:39.830" end="00:23:40.220" style="s2">No.</p>
+<p begin="00:23:40.260" end="00:23:41.100" style="s2">I-I just...</p>
+<p begin="00:23:41.140" end="00:23:41.810" style="s2">It-It-It...</p>
+<p begin="00:23:46.560" end="00:23:48.790" style="s2">When is Immortal Chu Kong the most relaxed?</p>
+<p begin="00:23:49.130" end="00:23:50.280" style="s2">You should know that.</p>
+<p begin="00:23:54.020" end="00:23:55.410" style="s2">[Star Platform]</p>
+<p begin="00:23:57.810" end="00:24:00.130" style="s2">You can try your luck at the Star Platform.</p>
+<p begin="00:24:00.440" end="00:24:02.670" style="s2">That is the place where the spiritual power of Heaven and Earth is the strongest.</p>
+<p begin="00:24:03.150" end="00:24:05.310" style="s2">His Divinity occasionally sleeps at the Star Platform</p>
+<p begin="00:24:05.400" end="00:24:07.630" style="s2">to absorb the spiritual power and restore his primordial spirit.</p>
+<p begin="00:25:16.910" end="00:25:17.630" style="s2">Greetings, Your Divinity.</p>
+<p begin="00:25:17.740" end="00:25:18.540" style="s2">Greetings, Your Divinity.</p>
+<p begin="00:25:30.860" end="00:25:31.860" style="s2">Why is someone from the Marriage Pavilion</p>
+<p begin="00:25:35.060" end="00:25:36.370" style="s2">here at the Star Platform?</p>
+<p begin="00:25:40.360" end="00:25:41.820" style="s2">I...</p>
+<p begin="00:25:42.730" end="00:25:44.500" style="s2">am here to repay you for saving my life.</p>
+<p begin="00:25:46.490" end="00:25:47.070" style="s2">Really?</p>
+<p begin="00:25:48.600" end="00:25:50.210" style="s2">The way you&#39;re repaying me</p>
+<p begin="00:25:50.230" end="00:25:51.510" style="s2">is really interesting.</p>
+<p begin="00:25:54.250" end="00:25:56.340" style="s2">You were by my side just now.</p>
+<p begin="00:25:57.860" end="00:25:59.230" style="s2">If I didn’t stop you…</p>
+<p begin="00:26:00.180" end="00:26:01.220" style="s2">what were you trying to do?</p>
+<p begin="00:26:02.740" end="00:26:03.810" style="s2">I-I...</p>
+<p begin="00:26:04.650" end="00:26:05.690" style="s2">I was...</p>
+<p begin="00:26:06.760" end="00:26:08.270" style="s2">Who do you think you are?</p>
+<p begin="00:26:10.180" end="00:26:12.160" style="s2">How dare you act recklessly in front of me.</p>
+<p begin="00:26:12.980" end="00:26:13.740" style="s2">Please spare my life.</p>
+<p begin="00:26:13.760" end="00:26:14.400" style="s2">Please spare my life.</p>
+<p begin="00:26:14.430" end="00:26:15.230" style="s2">I&#39;m innocent.</p>
+<p begin="00:26:15.630" end="00:26:18.160" style="s2">I just saw that you were alone</p>
+<p begin="00:26:18.460" end="00:26:19.270" style="s2">and seemed lonely.</p>
+<p begin="00:26:19.460" end="00:26:20.700" style="s2">So I wanted to do something</p>
+<p begin="00:26:20.960" end="00:26:22.520" style="s2">for you within my capabilities.</p>
+<p begin="00:26:22.980" end="00:26:24.700" style="s2">That&#39;s why I wanted to arrange a blissful marriage</p>
+<p begin="00:26:24.700" end="00:26:25.780" style="s2">for you.</p>
+<p begin="00:26:26.450" end="00:26:28.020" style="s2">As for why</p>
+<p begin="00:26:28.040" end="00:26:30.140" style="s2">I almost touched your face just now,</p>
+<p begin="00:26:30.500" end="00:26:32.220" style="s2">it&#39;s because I thought</p>
+<p begin="00:26:32.570" end="00:26:34.640" style="s2">you seemed familiar</p>
+<p begin="00:26:36.540" end="00:26:39.100" style="s2">and I had a feeling of reunion.</p>
+<p begin="00:26:40.140" end="00:26:40.780" style="s2">Familiar?</p>
+<p begin="00:26:47.920" end="00:26:48.670" style="s2">Stand up.</p>
+<p begin="00:26:52.590" end="00:26:53.390" style="s2">Raise your head</p>
+<p begin="00:26:53.790" end="00:26:54.670" style="s2">for me.</p>
+<p begin="00:27:11.370" end="00:27:12.720" style="s2">I finally found you.</p>
+<p begin="00:27:14.300" end="00:27:14.900" style="s2">Xiangyun.</p>
+<p begin="00:27:18.320" end="00:27:19.520" style="s2">You auctioned my love</p>
+<p begin="00:27:20.250" end="00:27:21.140" style="s2">and disregarded the laws of heaven</p>
+<p begin="00:27:21.140" end="00:27:22.210" style="s2">and violated the divine dignity.</p>
+<p begin="00:27:27.990" end="00:27:29.030" style="s2">Pass my message.</p>
+<p begin="00:27:29.640" end="00:27:30.650" style="s2">The Marriage Pavilion...</p>
+<p begin="00:27:33.580" end="00:27:34.040" style="s2">Tear it down.</p>
+<p begin="00:27:35.780" end="00:27:37.640" style="s2">The Marriage Pavilion can&#39;t be destroyed in my hands.</p>
+<p begin="00:27:37.980" end="00:27:39.360" style="s2">If I fulfill His Holiness&#39; order</p>
+<p begin="00:27:39.540" end="00:27:40.380" style="s2">and make a contribution,</p>
+<p begin="00:27:40.590" end="00:27:42.290" style="s2">I wonder if he&#39;ll spare the Marriage Pavilion.</p>
+<p begin="00:27:42.930" end="00:27:43.570" style="s2">Whatever.</p>
+<p begin="00:27:43.780" end="00:27:44.210" style="s2">I&#39;ll risk it.</p>
+<p begin="00:27:45.460" end="00:27:45.990" style="s2">Your Divinity.</p>
+<p begin="00:28:27.530" end="00:28:27.880" style="s2">I...</p>
+<p begin="00:28:28.640" end="00:28:28.920" style="s2">This...</p>
+<p begin="00:28:29.570" end="00:28:30.420" style="s2">I don&#39;t know</p>
+<p begin="00:28:30.450" end="00:28:31.940" style="s2">how to untie this Love Knot.</p>
+<p begin="00:28:32.130" end="00:28:32.460" style="s2">I...</p>
+<p begin="00:28:32.630" end="00:28:33.690" style="s2">I know how to.</p>
+<p begin="00:28:42.810" end="00:28:43.530" style="s2">Your Divinity.</p>
+<p begin="00:28:44.350" end="00:28:45.950" style="s2">Are you going to cut off my hand</p>
+<p begin="00:28:46.170" end="00:28:47.370" style="s2">or slash me?</p>
+<p begin="00:28:50.310" end="00:28:51.260" style="s2">What do you think?</p>
+<p begin="00:29:22.220" end="00:29:22.660" style="s2">Wait.</p>
+<p begin="00:29:23.070" end="00:29:23.910" style="s2">Don&#39;t come over.</p>
+<p begin="00:29:24.620" end="00:29:25.590" style="s2">If you come any closer,</p>
+<p begin="00:29:25.870" end="00:29:27.080" style="s2">I&#39;ll jump.</p>
+<p begin="00:29:29.160" end="00:29:31.100" style="s2">Your Divinity, consider it carefully.</p>
+<p begin="00:29:31.460" end="00:29:32.940" style="s2">If I jump into this Mortal World Well,</p>
+<p begin="00:29:33.620" end="00:29:34.420" style="s2">in the vastness of the six realms,</p>
+<p begin="00:29:34.630" end="00:29:35.720" style="s2">you won&#39;t be able to find me.</p>
+<p begin="00:29:36.530" end="00:29:38.370" style="s2">If you jump into the broken Mortal World Well,</p>
+<p begin="00:29:39.420" end="00:29:40.740" style="s2">and fall into the Mysterious Realm,</p>
+<p begin="00:29:42.470" end="00:29:43.240" style="s2">or the Boundless Realm,</p>
+<p begin="00:29:45.600" end="00:29:47.260" style="s2">you could very well die.</p>
+<p begin="00:29:48.970" end="00:29:49.900" style="s2">Don&#39;t you know?</p>
+<p begin="00:29:50.700" end="00:29:52.780" style="s2">Even if I fall into the Boundless Realm or the Mysterious Realm,</p>
+<p begin="00:29:52.810" end="00:29:54.020" style="s2">I won&#39;t let you stop me.</p>
+<p begin="00:29:54.730" end="00:29:56.120" style="s2">I... Don&#39;t move!</p>
+<p begin="00:29:57.250" end="00:29:59.260" style="s2">I&#39;m really going to jump.</p>
+<p begin="00:30:00.920" end="00:30:01.920" style="s2">Then jump.</p>
+<p begin="00:30:03.430" end="00:30:03.750" style="s2">I...</p>
+<p begin="00:30:10.570" end="00:30:11.330" style="s2">Your Divinity.</p>
+<p begin="00:30:11.810" end="00:30:13.430" style="s2">I suddenly thought it over.</p>
+<p begin="00:30:14.020" end="00:30:16.580" style="s2">I think there might be some misunderstandings between us.</p>
+<p begin="00:30:17.200" end="00:30:18.680" style="s2">I can explain.</p>
+<p begin="00:30:19.140" end="00:30:20.170" style="s2">It&#39;s not necessary.</p>
+<p begin="00:31:02.140" end="00:31:02.880" style="s2">Thank goodness.</p>
+<p begin="00:31:03.380" end="00:31:04.140" style="s2">It&#39;s the mortal world.</p>
+<p begin="00:31:04.400" end="00:31:05.240" style="s2">It&#39;s the mortal world.</p>
+<p begin="00:31:13.260" end="00:31:13.970" style="s2">How could I</p>
+<p begin="00:31:15.020" end="00:31:15.780" style="s2">actually control</p>
+<p begin="00:31:15.780" end="00:31:18.200" style="s2">these two little cute paws?</p>
+<p begin="00:31:20.060" end="00:31:20.660" style="s2">Wait.</p>
+<p begin="00:31:21.410" end="00:31:22.340" style="s2">Have I…</p>
+<p begin="00:31:23.120" end="00:31:25.800" style="s2">become a tiger after getting into a tribulation?</p>
+<p begin="00:31:31.210" end="00:31:32.010" style="s2">A boar?</p>
+<p begin="00:31:32.750" end="00:31:33.690" style="s2">It&#39;s you?</p>
+<p begin="00:31:34.170" end="00:31:35.160" style="s2">Immortal Chu Kong?</p>
+<p begin="00:31:36.650" end="00:31:37.470" style="s2">Immortal Chu Kong</p>
+<p begin="00:31:37.510" end="00:31:38.750" style="s2">actually turned into</p>
+<p begin="00:31:38.820" end="00:31:40.600" style="s2">an ugly boar!</p>
+<p begin="00:31:42.000" end="00:31:42.350" style="s2">You...</p>
+<p begin="00:31:44.020" end="00:31:44.420" style="s2">Pig Kong?</p>
+<p begin="00:31:44.440" end="00:31:44.800" style="s2">Sorry.</p>
+<p begin="00:31:44.990" end="00:31:45.390" style="s2">Chu Kong.</p>
+<p begin="00:31:46.070" end="00:31:46.870" style="s2">Immortal Chu Kong.</p>
+<p begin="00:31:48.470" end="00:31:49.450" style="s2">Immortal Chu Kong.</p>
+<p begin="00:31:50.840" end="00:31:51.910" style="s2">Wait for me!</p>
+<p begin="00:31:54.650" end="00:31:55.610" style="s2">Wait for me!</p>
+<p begin="00:31:57.170" end="00:31:57.680" style="s2">Your Divinity.</p>
+<p begin="00:31:59.020" end="00:31:59.620" style="s2">Your Divinity.</p>
+<p begin="00:32:00.490" end="00:32:01.130" style="s2">Don&#39;t worry.</p>
+<p begin="00:32:01.380" end="00:32:02.640" style="s2">I won&#39;t tell anyone</p>
+<p begin="00:32:03.220" end="00:32:04.170" style="s2">that you became</p>
+<p begin="00:32:04.190" end="00:32:06.050" style="s2">a boar.</p>
+<p begin="00:32:13.160" end="00:32:14.690" style="s2">My glorious reputation</p>
+<p begin="00:32:15.100" end="00:32:16.440" style="s2">cannot be tarnished.</p>
+<p begin="00:32:18.740" end="00:32:19.260" style="s2">I have to</p>
+<p begin="00:32:20.540" end="00:32:21.830" style="s2">erase</p>
+<p begin="00:32:23.330" end="00:32:24.030" style="s2">her</p>
+<p begin="00:32:24.780" end="00:32:25.450" style="s2">memory!</p>
+<p begin="00:32:31.700" end="00:32:32.220" style="s2">Oh no.</p>
+<p begin="00:32:33.840" end="00:32:34.960" style="s2">I forgot that during tribulations,</p>
+<p begin="00:32:35.090" end="00:32:35.930" style="s2">immortals can&#39;t use their magic.</p>
+<p begin="00:32:39.460" end="00:32:40.130" style="s2">Looks like</p>
+<p begin="00:32:40.290" end="00:32:41.500" style="s2">I have to be his bootlick</p>
+<p begin="00:32:42.140" end="00:32:43.840" style="s2">to stay alive.</p>
+<p begin="00:32:44.300" end="00:32:44.850" style="s2">Your Divinity.</p>
+<p begin="00:32:46.360" end="00:32:47.150" style="s2">Your Divinity.</p>
+<p begin="00:32:52.890" end="00:32:53.410" style="s2">Your Divinity.</p>
+<p begin="00:32:54.700" end="00:32:55.330" style="s2">Your Divinity.</p>
+<p begin="00:32:59.590" end="00:32:59.960" style="s2">Go.</p>
+<p begin="00:33:00.660" end="00:33:01.340" style="s2">Go away.</p>
+<p begin="00:33:03.530" end="00:33:04.330" style="s2">Don&#39;t come near me.</p>
+<p begin="00:33:14.340" end="00:33:15.080" style="s2">Your Divinity.</p>
+<p begin="00:33:15.110" end="00:33:15.910" style="s2">What are you doing?</p>
+<p begin="00:33:18.270" end="00:33:19.230" style="s2">Don’t follow me.</p>
+<p begin="00:33:19.930" end="00:33:21.190" style="s2">I need to go back.</p>
+<p begin="00:33:32.440" end="00:33:33.440" style="s2">Be careful, Your Divinity!</p>
+<p begin="00:33:39.300" end="00:33:40.220" style="s2">How dare you!</p>
+<p begin="00:33:40.710" end="00:33:42.510" style="s2">Are you afraid that you won&#39;t die tragically enough</p>
+<p begin="00:33:43.220" end="00:33:44.220" style="s2">when you go back?</p>
+<p begin="00:33:54.160" end="00:33:55.550" style="s2">My leg is cramping.</p>
+<p begin="00:33:59.000" end="00:33:59.800" style="s2">Stay still.</p>
+<p begin="00:34:00.820" end="00:34:01.790" style="s2">Let me pull you up.</p>
+<p begin="00:35:02.330" end="00:35:02.770" style="s2">Let&#39;s have a look.</p>
+<p begin="00:35:02.790" end="00:35:03.190" style="s2">Let&#39;s go.</p>
+<p begin="00:35:23.090" end="00:35:23.890" style="s2">Perfect timing.</p>
+<p begin="00:35:24.490" end="00:35:25.280" style="s2">In tribulations,</p>
+<p begin="00:35:25.720" end="00:35:26.450" style="s2">when my mortal body dies,</p>
+<p begin="00:35:26.680" end="00:35:27.420" style="s2">I&#39;ll be returned to my immortal self.</p>
+<p begin="00:35:27.970" end="00:35:28.650" style="s2">Don&#39;t be afraid, Your Divinity.</p>
+<p begin="00:35:28.950" end="00:35:30.670" style="s2">I&#39;ll protect you with my life.</p>
+<p begin="00:35:30.700" end="00:35:31.330" style="s2">Go away.</p>
+<p begin="00:35:31.790" end="00:35:32.910" style="s2">Don&#39;t ruin my plan.</p>
+<p begin="00:35:37.460" end="00:35:37.900" style="s2">Don&#39;t worry.</p>
+<p begin="00:35:38.100" end="00:35:39.980" style="s2">I won&#39;t let them hurt you.</p>
+<p begin="00:35:45.290" end="00:35:46.860" style="s2">Can you...</p>
+<p begin="00:35:46.990" end="00:35:47.500" style="s2">Your Divinity.</p>
+<p begin="00:35:47.820" end="00:35:48.370" style="s2">Calm down.</p>
+<p begin="00:35:49.150" end="00:35:49.970" style="s2">Get lost!</p>
+<p begin="00:35:51.380" end="00:35:52.070" style="s2">Your Divinity.</p>
+<p begin="00:35:54.440" end="00:35:55.090" style="s2">Get lost!</p>
+<p begin="00:35:55.470" end="00:35:56.420" style="s2">Your Divinity, don&#39;t go over there.</p>
+<p begin="00:35:56.840" end="00:35:58.100" style="s2">Don&#39;t make trouble for me.</p>
+<p begin="00:35:58.120" end="00:35:58.850" style="s2">Immortal Chu Kong.</p>
+<p begin="00:35:58.880" end="00:36:00.020" style="s2">Be good.</p>
+<p begin="00:36:00.270" end="00:36:01.260" style="s2">Don&#39;t try to be a hero.</p>
+<p begin="00:36:10.110" end="00:36:12.050" style="s2">It&#39;s time for me to show my loyalty.</p>
+<p begin="00:36:15.910" end="00:36:16.740" style="s2">Your Divinity.</p>
+<p begin="00:36:16.760" end="00:36:18.280" style="s2">You should believe</p>
+<p begin="00:36:18.770" end="00:36:21.100" style="s2">that I&#39;m loyal to you now.</p>
+<p begin="00:36:21.280" end="00:36:22.320" style="s2">You mess things up</p>
+<p begin="00:36:22.710" end="00:36:23.600" style="s2">all the time!</p>
+<p begin="00:36:24.000" end="00:36:25.720" style="s2">When I return to Heaven Realm,</p>
+<p begin="00:36:25.750" end="00:36:27.100" style="s2">I&#39;ll settle the score with you.</p>
+<p begin="00:36:29.800" end="00:36:30.530" style="s2">Isn&#39;t this</p>
+<p begin="00:36:31.100" end="00:36:32.830" style="s2">too disgraceful?</p>
+</div>
+</body>
+</tt>

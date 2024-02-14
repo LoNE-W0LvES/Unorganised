@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".indoorActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B4121212"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/sec_1"
+            android:layout_width="394dp"
+            android:layout_height="346dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="395dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/background" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/sec_2"
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sec_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/takePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Take Photo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sec_3"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/sec_2">
+            <Button
+                android:id="@+id/light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Light" />
+            <Button
+                android:id="@+id/fan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sec_4"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sec_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fSpeed"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:text="    Fan Speed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <SeekBar
+                android:id="@+id/fanSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sec_5"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/sec_4">
+            <Button
+                android:id="@+id/doorState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Door" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sec_6"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/sec_5">
+
+            <TextView
+                android:id="@+id/hum"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Room Humidity        :" />
+            <TextView
+                android:id="@+id/roomHum"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sec_7"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/sec_6">
+
+            <TextView
+                android:id="@+id/tempDC"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Room Temperature :" />
+            <TextView
+                android:id="@+id/roomTemp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sec_9"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/sec_7">
+
+            <TextView
+                android:id="@+id/fire"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fire Alert                   :" />
+            <TextView
+                android:id="@+id/fireAlert"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

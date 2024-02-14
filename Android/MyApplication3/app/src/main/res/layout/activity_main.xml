@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="413dp"
+        android:layout_height="845dp"
+        android:background="#B4121212"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/sec_1"
+            android:layout_width="match_parent"
+            android:layout_height="373dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/background"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/takePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sec_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/take_photo"
+            android:textColor="#D7CCC8"
+            android:backgroundTint="#669A50"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+
+        <Button
+            android:id="@+id/unlockDoor"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/takePhoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="32dp"
+            android:backgroundTint="#669A50"
+            android:text="@string/unlock"/>
+
+        <LinearLayout
+            android:id="@+id/sec_2"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/unlockDoor">
+
+            <Button
+                android:id="@+id/light"
+                android:layout_width="350dp"
+                android:layout_height="155dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#669A50"
+                android:foreground="@drawable/ic_baseline_lightbulb_24"
+                android:text="@string/light_on"
+                android:textColor="@color/white"
+                tools:ignore="UnusedAttribute" />
+
+            <Button
+                android:id="@+id/fan"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#669B50"
+                android:textColor="@color/white"
+                android:text="@string/fan_on"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

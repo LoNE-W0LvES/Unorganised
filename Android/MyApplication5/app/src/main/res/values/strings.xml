@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="light_on">Light On</string>
+    <string name="fan_on">fan on</string>
+    <string name="unlock">Unlock</string>
+    <string name="todo">TODO</string>
+</resources>

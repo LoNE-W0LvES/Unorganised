@@ -1,0 +1,3 @@
+VALORANT-Win64-Shipping.exe
+VALORANT.exe
+chrome.exe

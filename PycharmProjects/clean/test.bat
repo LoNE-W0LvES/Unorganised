@@ -1,0 +1,5 @@
+
+pushd "C:\WebstormProject\fruitview"
+set arg=NzM4ZDExNzY2OTVhZDMwNzBhMGRhMjFkM2YzOGUzZDAsLiwzMTAwMCwuLDYsLix0cnVlLC4sbGVuZ3RtcCt5eXZtN0BnbWFpbC5jb20sLixiZDdhWjBjaWJFLWVHMGI3LC4saHR0cHM6Ly9mcnVpdGxhYi5jb20vcGxheWVyL3BpbmF0dHN1LGh0dHBzOi8vZnJ1aXRsYWIuY29tL3BsYXllci9sb25ld29sdmVz
+
+start /wait create-part2.exe %arg%
