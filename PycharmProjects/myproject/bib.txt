@@ -1,0 +1,87 @@
+@article{ewieda2021customer,
+  title={Customer retention: detecting churners in telecoms industry using data mining techniques},
+  author={Ewieda, Mahmoud and Shaaban, Essam M and Roushdy, Mohamed},
+  journal={International Journal of Advanced Computer Science and Applications},
+  volume={12},
+  number={3},
+  year={2021},
+  publisher={Science and Information (SAI) Organization Limited}
+}
+@inproceedings{achrekar2011predicting,
+  title={Predicting flu trends using twitter data},
+  author={Achrekar, Harshavardhan and Gandhe, Avinash and Lazarus, Ross and Yu, Ssu-Hsin and Liu, Benyuan},
+  booktitle={2011 IEEE conference on computer communications workshops (INFOCOM WKSHPS)},
+  pages={702--707},
+  year={2011},
+  organization={IEEE}
+}
+@inproceedings{achrekar2011predicting,
+  title={Predicting flu trends using twitter data},
+  author={Achrekar, Harshavardhan and Gandhe, Avinash and Lazarus, Ross and Yu, Ssu-Hsin and Liu, Benyuan},
+  booktitle={2011 IEEE conference on computer communications workshops (INFOCOM WKSHPS)},
+  pages={702--707},
+  year={2011},
+  organization={IEEE}
+}
+@inproceedings{aramaki2011twitter,
+  title={Twitter catches the flu: detecting influenza epidemics using Twitter},
+  author={Aramaki, Eiji and Maskawa, Sachiko and Morita, Mizuki},
+  booktitle={Proceedings of the 2011 Conference on empirical methods in natural language processing},
+  pages={1568--1576},
+  year={2011}
+}
+@article{sharma2022latent,
+  title={Latent DIRICHLET allocation (LDA) based information modelling on BLOCKCHAIN technology: a review of trends and research patterns used in integration},
+  author={Sharma, Chetan and Sharma, Shamneesh and Sakshi},
+  journal={Multimedia Tools and Applications},
+  volume={81},
+  number={25},
+  pages={36805--36831},
+  year={2022},
+  publisher={Springer}
+}
+@article{rajan2021spatial,
+  title={Spatial data mining methods databases and statistics point of views},
+  author={Rajan, Rejin and Rajest, Suman and Singh, Bhopendra},
+  journal={Innovations in Information and Communication Technology Series},
+  pages={103--109},
+  year={2021}
+}
+@article{oatley2022themes,
+  title={Themes in data mining, big data, and crime analytics},
+  author={Oatley, Giles C},
+  journal={Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  volume={12},
+  number={2},
+  pages={e1432},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+@article{ning2022knowledge,
+  title={Knowledge discovery using an enhanced latent Dirichlet allocation-based clustering method for solving on-site assembly problems},
+  author={Ning, Weihang and Liu, Jianhua and Xiong, Hui},
+  journal={Robotics and Computer-Integrated Manufacturing},
+  volume={73},
+  pages={102246},
+  year={2022},
+  publisher={Elsevier}
+}
+@article{kumar2021applications,
+  title={Applications of text mining in services management: A systematic literature review},
+  author={Kumar, Sunil and Kar, Arpan Kumar and Ilavarasan, P Vigneswara},
+  journal={International Journal of Information Management Data Insights},
+  volume={1},
+  number={1},
+  pages={100008},
+  year={2021},
+  publisher={Elsevier}
+}
+@article{irgashevich2022internet,
+  title={Internet Technologies In The Tourism Industry},
+  author={Irgashevich, ST and Odilovich, OA and Mamadaliyevich, GE},
+  journal={Web of Scientist: International Scientific Research Journal},
+  volume={3},
+  number={9},
+  pages={57--64},
+  year={2022}
+}

@@ -1,0 +1,805 @@
+@article{garbhapu2020comparative,
+  title={A comparative analysis of Latent Semantic analysis and Latent Dirichlet allocation topic modeling methods using Bible data},
+  author={Garbhapu, V and Bodapati, Prajna},
+  journal={Indian Journal of Science and Technology},
+  volume={13},
+  number={44},
+  pages={4474--4482},
+  year={2020}
+}
+
+@inproceedings{batra2021exploring,
+  title={Exploring Customer comments using Latent Dirichlet Allocation},
+  author={Batra, Rashmi and Pramod, Dhanya},
+  booktitle={2021 IEEE Pune Section International Conference (PuneCon)},
+  pages={1--6},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{zhou2023guided,
+  title={A guided latent Dirichlet allocation approach to investigate real-time latent topics of Twitter data during Hurricane Laura},
+  author={Zhou, Sulong and Kan, Pengyu and Huang, Qunying and Silbernagel, Janet},
+  journal={Journal of Information Science},
+  volume={49},
+  number={2},
+  pages={465--479},
+  year={2023},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{chauhan2021topic,
+  title={Topic modeling using latent Dirichlet allocation: A survey},
+  author={Chauhan, Uttam and Shah, Apurva},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={54},
+  number={7},
+  pages={1--35},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{wilcox2023supervised,
+  title={Supervised latent Dirichlet allocation with covariates: A Bayesian structural and measurement model of text and covariates.},
+  author={Wilcox, Kenneth Tyler and Jacobucci, Ross and Zhang, Zhiyong and Ammerman, Brooke A},
+  journal={Psychological Methods},
+  year={2023},
+  publisher={American Psychological Association}
+}
+
+@incollection{deepak2020analysis,
+  title={Analysis of learner’s behavior using latent Dirichlet allocation in online learning environment},
+  author={Deepak, NA and Shobha, NS},
+  booktitle={Computational Methods and Data Engineering: Proceedings of ICMDE 2020, Volume 2},
+  pages={231--242},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{muvsanovic19topic,
+  title={Topic modelling of Croatian five-star hotel brands posts on Facebook using Latent Dirichlet Allocation},
+  author={Mu{\v{s}}anovi{\'c}, Jelena and Dor{\v{c}}i{\'c}, Jelena},
+  journal={ECONOMICS AND BUSINESS OF THE POST COVID-19 WORLD},
+  pages={161}
+}
+
+@techreport{lubbering2019company,
+  title={What company does my news article refer to? Tackling multiclass problems with topic modeling},
+  author={L{\"u}bbering, Max and Kunkel, Julian and Farrell, Patricio},
+  year={2019},
+  institution={Berlin: Weierstra{\ss}-Institut f{\"u}r Angewandte Analysis und Stochastik}
+}
+
+@article{raja2019diversifying,
+  title={Diversifying personalized mobile multimedia application recommendations through the Latent Dirichlet Allocation and clustering optimization},
+  author={Raja, DR Kumar and Pushpa, S},
+  journal={Multimedia Tools and Applications},
+  volume={78},
+  number={17},
+  pages={24047--24066},
+  year={2019},
+  publisher={Springer}
+}
+
+@article{valle2021latent,
+  title={The Latent Dirichlet Allocation model with covariates (LDAcov): A case study on the effect of fire on species composition in Amazonian forests},
+  author={Valle, Denis and Shimizu, Gilson and Izbicki, Rafael and Maracahipes, Leandro and Silverio, Divino Vicente and Paolucci, Lucas N and Jameel, Yusuf and Brando, Paulo},
+  journal={Ecology and evolution},
+  volume={11},
+  number={12},
+  pages={7970--7979},
+  year={2021},
+  publisher={Wiley Online Library}
+}
+
+@article{mardones2023model,
+  title={Model selection for latent Dirichlet allocation in assessment data},
+  author={Mardones-Segovia, Constanza and Wheeler, Jordan M and Choi, Hye-Jeong and Wang, Shiyu and Cohen, Allan S},
+  journal={Psychological Test and Assessment Modeling},
+  volume={65},
+  number={1},
+  pages={3--35},
+  year={2023},
+  publisher={PABST Science Publishers}
+}
+
+@inproceedings{awantina2023computational,
+  title={Computational linguistics using latent dirichlet allocation for topic modeling on wattpad review},
+  author={Awantina, Rachma and Wibowo, Wahyu},
+  booktitle={Proceedings of the 4th International Conference on Science and Technology Applications, ICoSTA 2022, 1-2 November 2022, Medan, North Sumatera Province, Indonesia},
+  year={2023}
+}
+
+@article{kumble2023review,
+  title={Review of Latent Dirichlet Allocation to Understand Motivations to Share Conspiracy Theory: A Case Study of “Plandemic” during COVID-19},
+  author={Kumble, Sushma and Diddi, Pratiti and Conlin, Jeff},
+  journal={Practical Data Mining Techniques and Applications},
+  pages={7--29},
+  year={2023},
+  publisher={CRC Press}
+}
+
+@techreport{lubbering2019company,
+  title={What company does my news article refer to? Tackling multiclass problems with topic modeling},
+  author={L{\"u}bbering, Max and Kunkel, Julian and Farrell, Patricio},
+  year={2019},
+  institution={Berlin: Weierstra{\ss}-Institut f{\"u}r Angewandte Analysis und Stochastik}
+}
+
+@techreport{lubbering2019company,
+  title={What company does my news article refer to? Tackling multiclass problems with topic modeling},
+  author={L{\"u}bbering, Max and Kunkel, Julian and Farrell, Patricio},
+  year={2019},
+  institution={Berlin: Weierstra{\ss}-Institut f{\"u}r Angewandte Analysis und Stochastik}
+}
+
+@article{rajput2022sentiment,
+  title={Sentiment Analysis using Latent Dirichlet Allocation for Aspect Term Extraction},
+  author={Rajput, Lovish and Gupta, Shilpi},
+  journal={Journal of Computers, Mechanical and Management},
+  volume={1},
+  number={2},
+  pages={30--35},
+  year={2022}
+}
+
+@article{cho2021predicting,
+  title={Predicting future technological convergence patterns based on machine learning using link prediction},
+  author={Cho, Joon Hyung and Lee, Jungpyo and Sohn, So Young},
+  journal={Scientometrics},
+  volume={126},
+  pages={5413--5429},
+  year={2021},
+  publisher={Springer}
+}
+
+@article{alrumiah2022educational,
+  title={Educational Videos Subtitles’ Summarization Using Latent Dirichlet Allocation and Length Enhancement.},
+  author={Alrumiah, Sarah S and Al-Shargabi, Amal A},
+  journal={Computers, Materials \&amp; Continua},
+  volume={70},
+  number={3},
+  year={2022}
+}
+
+@article{groesbeekstudying,
+  title={Studying the Correlation between Online User Comments and Bitcoin Fluctuations using Latent Dirichlet Allocation},
+  author={GROESBEEK, TOM JANSSEN}
+}
+
+@inproceedings{das2019approach,
+  title={An approach for automatic aspect extraction by latent dirichlet allocation},
+  author={Das, Subha Jyoti and Chakraborty, Basabi},
+  booktitle={2019 IEEE 10th International Conference on Awareness Science and Technology (iCAST)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}
+
+@article{lee2022topic,
+  title={Topic modeling of Korean newspaper articles on aging via latent Dirichlet allocation},
+  author={Lee, So Chung},
+  journal={Asian Journal for Public Opinion Research},
+  volume={10},
+  number={1},
+  pages={4--22},
+  year={2022},
+  publisher={Center for Asian Public Opinion Research \&amp; Collaboration Initiative (CAPORCI)}
+}
+
+@inproceedings{almgerbi2021improving,
+  title={Improving Topic Modeling Performance through N-gram Removal},
+  author={Almgerbi, Mohamad and De Mauro, Andrea and Kahlawi, Adham and Poggioni, Valentina},
+  booktitle={IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology},
+  pages={162--169},
+  year={2021}
+}
+
+@article{necula2019identifying,
+  title={Identifying Software Complexity Topics with Latent Dirichlet Allocation on Design Patterns.},
+  author={Necula, Sabina-Cristiana and Str{\^\i}mbei, C{\u{a}}t{\u{a}}lin},
+  journal={Informatica Economica},
+  volume={23},
+  number={4},
+  year={2019}
+}
+
+@article{ferner2020automated,
+  title={Automated seeded latent dirichlet allocation for social media based event detection and mapping},
+  author={Ferner, Cornelia and Havas, Clemens and Birnbacher, Elisabeth and Wegenkittl, Stefan and Resch, Bernd},
+  journal={Information},
+  volume={11},
+  number={8},
+  pages={376},
+  year={2020},
+  publisher={MDPI}
+}
+
+@article{mahadevan2020review,
+  title={Review rating prediction using combined latent topics and associated sentiments: an empirical review},
+  author={Mahadevan, Anbazhagan and Arock, Michael},
+  journal={Service Oriented Computing and Applications},
+  volume={14},
+  number={1},
+  pages={19--34},
+  year={2020},
+  publisher={Springer}
+}
+
+@misc{leijon2022recommender,
+  title={Recommender System Using Online Latent Dirichlet Allocation And Wikipedia},
+  author={Leijon, Simon},
+  year={2022}
+}
+
+@article{gan2021selection,
+  title={Selection of the optimal number of topics for LDA topic model—taking patent policy analysis as an example},
+  author={Gan, Jingxian and Qi, Yong},
+  journal={Entropy},
+  volume={23},
+  number={10},
+  pages={1301},
+  year={2021},
+  publisher={MDPI}
+}
+
+@article{han2020evolution,
+  title={Evolution of research topics in LIS between 1996 and 2019: An analysis based on latent Dirichlet allocation topic model},
+  author={Han, Xiaoyao},
+  journal={Scientometrics},
+  volume={125},
+  number={3},
+  pages={2561--2595},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{westrupp2022text,
+  title={Text mining of Reddit posts: Using latent Dirichlet allocation to identify common parenting issues},
+  author={Westrupp, Elizabeth M and Greenwood, Christopher J and Fuller-Tyszkiewicz, Matthew and Berkowitz, Tomer S and Hagg, Lauryn and Youssef, George},
+  journal={Plos one},
+  volume={17},
+  number={2},
+  pages={e0262529},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{du2020extracting,
+  title={Extracting and tracking hot topics of micro-blogs based on improved Latent Dirichlet Allocation},
+  author={Du, YaJun and Yi, YongTao and Li, XianYong and Chen, XiaoLiang and Fan, YongQuan and Su, FangHong},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={87},
+  pages={103279},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{quatrini2022clustering,
+  title={Clustering application for condition-based maintenance in time-varying processes: A review using latent dirichlet allocation},
+  author={Quatrini, Elena and Colabianchi, Silvia and Costantino, Francesco and Tronci, Massimo},
+  journal={Applied Sciences},
+  volume={12},
+  number={2},
+  pages={814},
+  year={2022},
+  publisher={MDPI}
+}
+
+@inproceedings{huang2020best,
+  title={Best answerers prediction with topic based gat in Q\&amp;A sites},
+  author={Huang, Yuexin and Sun, Hailong},
+  booktitle={Proceedings of the 12th Asia-Pacific Symposium on Internetware},
+  pages={156--164},
+  year={2020}
+}
+
+@inproceedings{saini2020abusive,
+  title={Abusive text examination using Latent Dirichlet allocation, self organizing maps and k means clustering},
+  author={Saini, Yash and Bachchas, Vishal and Kumar, Yogesh and Kumar, Sanjay},
+  booktitle={2020 4th International Conference on Intelligent Computing and Control Systems (ICICCS)},
+  pages={1233--1238},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{li2019leveraging,
+  title={Leveraging Latent Dirichlet Allocation in processing free-text personal goals among patients undergoing bladder cancer surgery},
+  author={Li, Yuelin and Rapkin, Bruce and Atkinson, Thomas M and Schofield, Elizabeth and Bochner, Bernard H},
+  journal={Quality of Life Research},
+  volume={28},
+  pages={1441--1455},
+  year={2019},
+  publisher={Springer}
+}
+
+@article{li2022individualized,
+  title={Individualized passenger travel pattern multi-clustering based on graph regularized tensor latent dirichlet allocation},
+  author={Li, Ziyue and Yan, Hao and Zhang, Chen and Tsung, Fugee},
+  journal={Data Mining and Knowledge Discovery},
+  volume={36},
+  number={4},
+  pages={1247--1278},
+  year={2022},
+  publisher={Springer}
+}
+
+@inproceedings{poojitha2020document,
+  title={Document Representations to Improve Topic Modelling},
+  author={Poojitha, P Venkata and Menon, Remya RK},
+  booktitle={2020 International Conference on Software Security and Assurance (ICSSA)},
+  pages={79--83},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{gualberto2020feature,
+  title={From feature engineering and topics models to enhanced prediction rates in phishing detection},
+  author={Gualberto, Eder S and De Sousa, Rafael T and Thiago, P De B and Da Costa, Jo{\~a}o Paulo CL and Duque, Cl{\'a}udio G},
+  journal={Ieee Access},
+  volume={8},
+  pages={76368--76385},
+  year={2020},
+  publisher={IEEE}
+}
+
+@phdthesis{oyshi2023topic,
+  title={Topic Modeling and Prediction of Aid Data in Development Studies Using LDA and BERT},
+  author={Oyshi, Uttamasha Anjally},
+  year={2023},
+  school={University of Arkansas at Little Rock}
+}
+
+@article{du2019semisupervised,
+  title={A semisupervised infinite latent Dirichlet allocation model for target discrimination in SAR images with complex scenes},
+  author={Du, Lan and Wang, Yan and Xie, Weitong and Wang, Zhaocheng and Chen, Jian},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={58},
+  number={1},
+  pages={666--679},
+  year={2019},
+  publisher={IEEE}
+}
+
+@article{rieger2020ldaprototype,
+  title={ldaPrototype: A method in R to get a Prototype of multiple Latent Dirichlet Allocations},
+  author={Rieger, Jonas},
+  journal={Journal of Open Source Software},
+  volume={5},
+  number={51},
+  pages={2181},
+  year={2020}
+}
+
+@phdthesis{jones2023latent,
+  title={Latent Dirichlet Allocation for Natural Language Statistics},
+  author={Jones, Thomas W},
+  year={2023},
+  school={George Mason University}
+}
+
+@article{priyantina2019sentiment,
+  title={Sentiment analysis of hotel reviews using Latent Dirichlet Allocation, semantic similarity and LSTM},
+  author={Priyantina, Reza Amalia and Sarno, Riyanarto},
+  journal={Int. J. Intell. Eng. Syst},
+  volume={12},
+  number={4},
+  pages={142--155},
+  year={2019}
+}
+
+@article{wiranto2022topic,
+  title={Topic Modeling for Support Ticket using Latent Dirichlet Allocation},
+  author={Wiranto, Wiranto and Uswatunnisa, Mila Rosyida and others},
+  journal={Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)},
+  volume={6},
+  number={6},
+  pages={998--1005},
+  year={2022}
+}
+
+@article{zeng2023public,
+  title={Public Opinion Mining on Construction Health and Safety: Latent Dirichlet Allocation Approach},
+  author={Zeng, Liyun and Li, Rita Yi Man and Yigitcanlar, Tan and Zeng, Huiling},
+  journal={Buildings},
+  volume={13},
+  number={4},
+  pages={927},
+  year={2023},
+  publisher={MDPI}
+}
+
+@article{liu2020ilda,
+  title={iLDA: An interactive latent Dirichlet allocation model to improve topic quality},
+  author={Liu, Yezheng and Du, Fei and Sun, Jianshan and Jiang, Yuanchun},
+  journal={Journal of Information Science},
+  volume={46},
+  number={1},
+  pages={23--40},
+  year={2020},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{wang2019examining,
+  title={Examining destination images from travel blogs: A big data analytical approach using latent Dirichlet allocation},
+  author={Wang, Rui and Hao, Jin-Xing and Law, Rob and Wang, Jun},
+  journal={Asia Pacific Journal of Tourism Research},
+  volume={24},
+  number={11},
+  pages={1092--1107},
+  year={2019},
+  publisher={Taylor \&amp; Francis}
+}
+
+@article{putranto2021topic,
+  title={Topic modelling and hotel rating prediction based on customer review in Indonesia},
+  author={Putranto, Yunanto and Sartono, Bagus and Djuraidah, Anik},
+  journal={International Journal of Management and Decision Making},
+  volume={20},
+  number={3},
+  pages={282--307},
+  year={2021},
+  publisher={Inderscience Publishers (IEL)}
+}
+
+@article{chambua2022rating,
+  title={Rating Prediction based on Optimal Review Topics: A Proposed Latent Factors-Optimal Topics Hybrid Approach},
+  author={Chambua, James},
+  journal={University of Dar es Salaam Library Journal},
+  volume={17},
+  number={1},
+  pages={38--53},
+  year={2022}
+}
+
+@article{hu2022technology,
+  title={Technology topic identification and trend prediction of new energy vehicle using LDA modeling},
+  author={Hu, Renjie and Ma, Wencong and Lin, Weiqiang and Chen, Xiude and Zhong, Zuchang and Zeng, Chuhong},
+  journal={Complexity},
+  volume={2022},
+  pages={1--20},
+  year={2022},
+  publisher={Hindawi Limited}
+}
+
+@article{rijcken2022topic,
+  title={Topic modeling for interpretable text classification from EHRs},
+  author={Rijcken, Emil and Kaymak, Uzay and Scheepers, Floortje and Mosteiro, Pablo and Zervanou, Kalliopi and Spruit, Marco},
+  journal={Frontiers in big Data},
+  volume={5},
+  pages={846930},
+  year={2022},
+  publisher={Frontiers}
+}
+
+@inproceedings{li2021rail,
+  title={Rail transit fault text classification based on the latent dirichlet allocation},
+  author={Li, R and Su, S and Wang, G and Qu, J and Cao, Yuan},
+  booktitle={2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},
+  pages={1359--1364},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{wilhelm2021matrix,
+  title={Matrix factorization for collaborative filtering is just solving an adjoint latent dirichlet allocation model after all},
+  author={Wilhelm, Florian},
+  booktitle={Proceedings of the 15th ACM Conference on Recommender Systems},
+  pages={55--62},
+  year={2021}
+}
+
+@inproceedings{gropp2019clustered,
+  title={Clustered latent dirichlet allocation for scientific discovery},
+  author={Gropp, Christopher and Herzog, Alexander and Safro, Ilya and Wilson, Paul W and Apon, Amy W},
+  booktitle={2019 IEEE International Conference on Big Data (Big Data)},
+  pages={4503--4511},
+  year={2019},
+  organization={IEEE}
+}
+
+@article{aziz2022machine,
+  title={Machine learning in finance: A topic modeling approach},
+  author={Aziz, Saqib and Dowling, Michael and Hammami, Helmi and Piepenbrink, Anke},
+  journal={European Financial Management},
+  volume={28},
+  number={3},
+  pages={744--770},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+
+@article{karmakar2020feature,
+  title={Feature-free explainable data mining in sar images using latent dirichlet allocation},
+  author={Karmakar, Chandrabali and Dumitru, Corneliu Octavian and Schwarz, Gottfried and Datcu, Mihai},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume={14},
+  pages={676--689},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{gupta2022prediction,
+  title={Prediction of research trends using LDA based topic modeling},
+  author={Gupta, Rahul Kumar and Agarwalla, Ritu and Naik, Bukya Hemanth and Evuri, Joythish Reddy and Thapa, Apil and Singh, Thoudam Doren},
+  journal={Global Transitions Proceedings},
+  volume={3},
+  number={1},
+  pages={298--304},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@inproceedings{pandur2020topic,
+  title={Topic modelling in social sciences: Case study of web of science},
+  author={Pandur, Maja Buhin and Dob{\v{s}}a, Jasminka and Kronegger, Luka},
+  booktitle={Central European Conference on Information and Intelligent Systems, Varazdin},
+  year={2020}
+}
+
+@inproceedings{vikram2019approach,
+  title={An approach for multimodal medical image retrieval using latent dirichlet allocation},
+  author={Vikram, Mandikal and Anantharaman, Aditya and BS, Suhas},
+  booktitle={Proceedings of the ACM India joint international conference on data science and management of data},
+  pages={44--51},
+  year={2019}
+}
+
+@inproceedings{lakshmi2021design,
+  title={Design and Development of Topic Identification Using Latent Dirichlet Allocation},
+  author={Lakshmi Prasanna, P and Sandeep, S and Kantha Rao, V and Sekhar Babu, B},
+  booktitle={International Conference on Communication, Computing and Electronics Systems: Proceedings of ICCCES 2020},
+  pages={789--797},
+  year={2021},
+  organization={Springer}
+}
+
+@article{goyalmachine,
+  title={Machine Learning for Statistical Arbitrage: Using News Media to Predict Currency Exchange Rates},
+  author={Goyal, Samaskh and Sowrirajan, Hari and Veeramacheneni, Teja}
+}
+
+@inproceedings{yoon2019extracting,
+  title={Extracting Promising Topics on Smart Manufacturing Based on Latent Dirichlet Allocation (LDA)},
+  author={Yoon, Young Seog and Lee, Junhee and Park, Kwangroh},
+  booktitle={2019 International Conference on Information and Communication Technology Convergence (ICTC)},
+  pages={1237--1242},
+  year={2019},
+  organization={IEEE}
+}
+
+@article{ramathulasi2022augmented,
+  title={Augmented latent Dirichlet allocation model via word embedded clusters for mashup service clustering},
+  author={Ramathulasi, Thota and Rajasekharababu, M},
+  journal={Concurrency and Computation: Practice and Experience},
+  volume={34},
+  number={15},
+  pages={e6896},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+
+@article{osmani2020enriched,
+  title={Enriched latent dirichlet allocation for sentiment analysis},
+  author={Osmani, Amjad and Mohasefi, Jamshid Bagherzadeh and Gharehchopogh, Farhad Soleimanian},
+  journal={Expert Systems},
+  volume={37},
+  number={4},
+  pages={e12527},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+
+@article{chen2022constructing,
+  title={Constructing dynamic residential energy lifestyles using Latent Dirichlet Allocation},
+  author={Chen, Xiao and Zanocco, Chad and Flora, June and Rajagopal, Ram},
+  journal={Applied Energy},
+  volume={318},
+  pages={119109},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{luo2020latent,
+  title={A Latent Dirichlet Allocation and Fuzzy Clustering Based Machine Learning Model for Text Thesaurus},
+  author={Luo, Jia and Yu, Dongwen and Dai, Zong},
+  journal={INTERNATIONAL JOURNAL OF COMPUTERS COMMUNICATIONS \&amp; CONTROL},
+  volume={15},
+  number={2},
+  year={2020}
+}
+
+@article{guven2019emotion,
+  title={Emotion detection with n-stage latent dirichlet allocation for turkish tweets},
+  author={G{\"u}ven, Zekeriya An{\i}l and Banu, D{\.I}R{\.I} and {\c{C}}AKALO{\u{G}}LU, Tolgahan},
+  journal={Academic Platform-Journal of Engineering and Science},
+  volume={7},
+  number={3},
+  pages={467--472},
+  year={2019}
+}
+
+@article{wang2019duet,
+  title={DUET: Data-driven approach based on latent Dirichlet allocation topic modeling},
+  author={Wang, Yan and Taylor, John E},
+  journal={Journal of Computing in Civil Engineering},
+  volume={33},
+  number={3},
+  pages={04019023},
+  year={2019},
+  publisher={American Society of Civil Engineers}
+}
+
+@article{breuninger2021associations,
+  title={Associations between habitual diet, metabolic disease, and the gut microbiota using latent Dirichlet allocation},
+  author={Breuninger, Taylor A and Wawro, Nina and Breuninger, Jakob and Reitmeier, Sandra and Clavel, Thomas and Six-Merker, Julia and Pestoni, Giulia and Rohrmann, Sabine and Rathmann, Wolfgang and Peters, Annette and others},
+  journal={Microbiome},
+  volume={9},
+  number={1},
+  pages={1--18},
+  year={2021},
+  publisher={BioMed Central}
+}
+
+@article{lucini2020text,
+  title={Text mining approach to explore dimensions of airline customer satisfaction using online customer reviews},
+  author={Lucini, Filipe R and Tonetto, Leandro M and Fogliatto, Flavio S and Anzanello, Michel J},
+  journal={Journal of Air Transport Management},
+  volume={83},
+  pages={101760},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{van2022temporal,
+  title={A Temporal Extension of Latent Dirichlet Allocation for Unsupervised Acoustic Unit Discovery},
+  author={van der Merwe, Werner and Kamper, Herman and Preez, Johan du},
+  journal={arXiv preprint arXiv:2206.11706},
+  year={2022}
+}
+
+@article{ning2020prediction,
+  title={Prediction correction topic evolution research for metabolic pathways of the gut microbiota},
+  author={Ning, Li and Lifang, Peng and Huixin, He},
+  journal={Frontiers in Molecular Biosciences},
+  volume={7},
+  pages={600720},
+  year={2020},
+  publisher={Frontiers Media SA}
+}
+
+@article{st2022entrepreneurial,
+  title={Entrepreneurial crowdfunding backer motivations: a latent Dirichlet allocation approach},
+  author={St John, Jeremy and St John, Karen and Han, Bo},
+  journal={European Journal of Innovation Management},
+  volume={25},
+  number={6},
+  pages={223--241},
+  year={2022},
+  publisher={Emerald Publishing Limited}
+}
+
+@phdthesis{feng2019performance,
+  title={Performance of Latent Dirichlet Allocation with Different Topic and Document Structures},
+  author={Feng, Haotian},
+  year={2019},
+  school={Clemson University}
+}
+
+@article{sommeria2020latent,
+  title={Latent Dirichlet Allocation reveals spatial and taxonomic structure in a DNA-based census of soil biodiversity from a tropical forest},
+  author={Sommeria-Klein, Guilhem and Zinger, Lucie and Coissac, Eric and Iribar, Amaia and Schimann, Heidy and Taberlet, Pierre and Chave, J{\'e}r{\^o}me},
+  journal={Molecular Ecology Resources},
+  volume={20},
+  number={2},
+  pages={371--386},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+
+@article{csimdi2021global,
+  title={Global financial crisis and trade papers: topic analysis via Latent Dirichlet Allocation model},
+  author={{\c{S}}imdi, Halil and Garip, B{\"u}{\c{s}}ra},
+  journal={Current Research in Social Sciences},
+  volume={7},
+  number={2},
+  pages={76--94},
+  year={2021},
+  publisher={Aizonia Publishing}
+}
+
+@article{aldebakelexploration,
+  title={Exploration of Variational Inference and Monte Carlo Markov Chain Models for Latent Dirichlet Allocation of Wikipedia Corpus},
+  author={Aldebakel, Duha and Cao, Yu and Limon, Anthony and Zhang, Rui}
+}
+
+@article{escobar2021frequency,
+  title={Frequency of Neuroendocrine Tumor Studies: Using Latent Dirichlet Allocation and HJ-Biplot Statistical Methods},
+  author={Escobar, Karime Montes and Vicente-Villardon, Jos{\'e} Luis and de la Hoz-M, Javier and Useche-Castro, Lelly Mar{\'\i}a and Alarc{\'o}n Cano, Daniel Fabricio and Siteneski, Aline},
+  journal={Mathematics},
+  volume={9},
+  number={18},
+  pages={2281},
+  year={2021},
+  publisher={MDPI}
+}
+
+@article{asmussen2019smart,
+  title={Smart literature review: a practical topic modelling approach to exploratory literature review},
+  author={Asmussen, Claus Boye and M{\o}ller, Charles},
+  journal={Journal of Big Data},
+  volume={6},
+  number={1},
+  pages={1--18},
+  year={2019},
+  publisher={Springer}
+}
+
+@inproceedings{thornton2020latent,
+  title={Latent Dirichlet Allocation (LDA) for Anomaly Detection in Ground Vehicle Network Traffic},
+  author={Thornton, A and Meiners, B and Poole, D and Russell, M},
+  booktitle={Proceedings of the Ground Vehicle Systems Engineering and Technology Symposium},
+  pages={11--13},
+  year={2020}
+}
+
+@misc{sheikha2020text,
+  title={Text mining Twitter social media for Covid-19: Comparing latent semantic analysis and latent Dirichlet allocation},
+  author={Sheikha, Hassan},
+  year={2020}
+}
+
+@article{liu2023integrating,
+  title={Integrating information entropy and latent Dirichlet allocation models for analysis of safety accidents in the construction industry},
+  author={Liu, Yipeng and Wang, Junwu and Tang, Shanrong and Zhang, Jiaji and Wan, Jinyingjun},
+  journal={Buildings},
+  volume={13},
+  number={7},
+  pages={1831},
+  year={2023},
+  publisher={MDPI}
+}
+
+@article{taylor2023approximate,
+  title={Approximate message passing algorithms for latent Dirichlet allocation},
+  author={Taylor, Rebecca},
+  year={2023}
+}
+
+@inproceedings{kaur2019domain,
+  title={Domain adaptation based topic modeling techniques for engagement estimation in the wild},
+  author={Kaur, Amanjot and Ghosh, Bishal and Singh, Naman Deep and Dhall, Abhinav},
+  booktitle={2019 14th IEEE International Conference on Automatic Face \&amp; Gesture Recognition (FG 2019)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}
+
+@article{tazibt2019latent,
+  title={Latent Dirichlet allocation-based temporal summarization},
+  author={Tazibt, Ahmed Amir and Aoughlis, Farida},
+  journal={International Journal of Web Information Systems},
+  volume={15},
+  number={1},
+  pages={83--102},
+  year={2019},
+  publisher={Emerald Publishing Limited}
+}
+
+@article{geethalakshmi2021opinion,
+  title={Opinion Mining With Hotel Review using Latent Dirichlet Allocation-Fuzzy C-Means Clustering (LDA-FCM)},
+  author={Geethalakshmi, SN and others},
+  journal={Turkish Journal of Computer and Mathematics Education (TURCOMAT)},
+  volume={12},
+  number={11},
+  pages={3001--3007},
+  year={2021}
+}
+
+@article{korshunova2019discriminative,
+  title={Discriminative topic modeling with logistic LDA},
+  author={Korshunova, Iryna and Xiong, Hanchen and Fedoryszak, Mateusz and Theis, Lucas},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
