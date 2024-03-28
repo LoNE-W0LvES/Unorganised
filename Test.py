@@ -194,3 +194,14 @@ class TFmini:
 
     def __init__(self):
         self.packet = {'distance': 0
+
+, 'strength': 0, 'int_time': 0, 'sum': 0}
+        self.buffer = {'distance': [0, 0], 'strength': [0, 0], 'int_time': 0, 'sum': 0}
+        self.state = self.State.HEAD_L
+        self.b_available = False
+        self.stream = None
+        self.format = self.OutputDataFormat.Standard
+```
+
+This Python code should work in a MicroPython environment, provided that the necessary functions like `available()`, `write()`, and `read()` are supported by the provided `Stream` object.
+                       
