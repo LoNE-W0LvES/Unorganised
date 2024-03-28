@@ -193,15 +193,37 @@ class TFmini:
     RECV_FRAME_HEADER = 0x59
 
     def __init__(self):
-        self.packet = {'distance': 0
-
-, 'strength': 0, 'int_time': 0, 'sum': 0}
+        self.packet = {'distance': 0, 'strength': 0, 'int_time': 0, 'sum': 0}
         self.buffer = {'distance': [0, 0], 'strength': [0, 0], 'int_time': 0, 'sum': 0}
         self.state = self.State.HEAD_L
         self.b_available = False
         self.stream = None
         self.format = self.OutputDataFormat.Standard
-```
 
-This Python code should work in a MicroPython environment, provided that the necessary functions like `available()`, `write()`, and `read()` are supported by the provided `Stream` object.
-                       
+
+
+#include "TFmini.h"
+
+HardwareSerial mySerial(1);
+TFmini tfmini;
+
+void setup()
+{
+    Serial.begin(115200);
+    mySerial.begin(115200, SERIAL_8N1, 16, 17);
+    tfmini.attach(mySerial);
+}
+
+void loop()
+{
+  if (tfmini.available())
+  {
+    Serial.print("tfmini ");
+    Serial.print("distance : ");
+    Serial.println(tfmini.getDistance());
+    Serial.print("strength : ");
+    Serial.println(tfmini.getStrength());
+    Serial.print("int time : ");
+    Serial.println(tfmini.getIntegrationTime());
+  }
+}
